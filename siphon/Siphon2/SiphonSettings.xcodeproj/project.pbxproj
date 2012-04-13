@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		7E41B23D0F35ED4300B4567A /* Network.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E41B23C0F35ED4300B4567A /* Network.plist */; };
+		7E41B2430F35F56400B4567A /* Network.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E41B2410F35F56400B4567A /* Network.strings */; };
+		7E4914960F89347400A0CF44 /* Codec.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E4914950F89347400A0CF44 /* Codec.plist */; };
+		7E4915110F894D1000A0CF44 /* Codec.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E49150F0F894D1000A0CF44 /* Codec.strings */; };
+		7E4A58B20F140399009B5B00 /* Phone.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E4A58B10F140399009B5B00 /* Phone.plist */; };
+		7E4A58CF0F14180B009B5B00 /* Phone.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E4A58CD0F14180B009B5B00 /* Phone.strings */; };
+		7ECAB5F00F0CBBE800DE9737 /* SiphonSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECAB5EF0F0CBBE800DE9737 /* SiphonSettings.m */; };
+		7ECAB6240F0CBD4A00DE9737 /* Siphon.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7ECAB6220F0CBD4A00DE9737 /* Siphon.strings */; };
+		7ECAB6270F0CBD5A00DE9737 /* Advanced.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7ECAB6250F0CBD5A00DE9737 /* Advanced.strings */; };
+		7ECAB66E0F0CC27700DE9737 /* Advanced.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ECAB66C0F0CC27700DE9737 /* Advanced.plist */; };
+		7ECAB66F0F0CC27700DE9737 /* Siphon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7ECAB66D0F0CC27700DE9737 /* Siphon.plist */; };
+		7ECAB7910F0CE28F00DE9737 /* icon-paypal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ECAB7900F0CE28F00DE9737 /* icon-paypal.png */; };
+		7ECAB7930F0CE2E100DE9737 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ECAB7920F0CE2E100DE9737 /* icon.png */; };
+		7ECAB7980F0CE77000DE9737 /* Preferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECAB7970F0CE77000DE9737 /* Preferences.framework */; };
+		7ECAB8440F0D4B6B00DE9737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECAB8430F0D4B6B00DE9737 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* SiphonSettings.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiphonSettings.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E05EF4F106EC55900670BB8 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = Settings/Resources/ca.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7E05EF50106EC57000670BB8 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = Settings/Resources/ca.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7E05EF51106EC58C00670BB8 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = Settings/Resources/ca.lproj/Phone.strings; sourceTree = "<group>"; };
+		7E05EF52106EC5A000670BB8 /* ca */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ca; path = Settings/Resources/ca.lproj/Network.strings; sourceTree = "<group>"; };
+		7E05EF60106EC9C200670BB8 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = Settings/Resources/sk.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7E05EF61106EC9EA00670BB8 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = Settings/Resources/sk.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7E05EF62106ECA1600670BB8 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = Settings/Resources/sk.lproj/Phone.strings; sourceTree = "<group>"; };
+		7E05EF63106ECA4300670BB8 /* sk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sk; path = Settings/Resources/sk.lproj/Network.strings; sourceTree = "<group>"; };
+		7E082D9F0F3DD2C7006E317E /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = Settings/Resources/sl.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7E082DA00F3DD2EE006E317E /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = Settings/Resources/sl.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7E082DA10F3DD2FD006E317E /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = Settings/Resources/sl.lproj/Phone.strings; sourceTree = "<group>"; };
+		7E082DA20F3DD30E006E317E /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = Settings/Resources/sl.lproj/Network.strings; sourceTree = "<group>"; };
+		7E41B23C0F35ED4300B4567A /* Network.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Network.plist; path = Settings/Resources/Network.plist; sourceTree = "<group>"; };
+		7E41B2420F35F56400B4567A /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = Settings/Resources/en.lproj/Network.strings; sourceTree = "<group>"; };
+		7E41B2440F35F58D00B4567A /* da */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = da; path = Settings/Resources/da.lproj/Phone.strings; sourceTree = "<group>"; };
+		7E41B2450F35F59C00B4567A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Settings/Resources/de.lproj/Phone.strings; sourceTree = "<group>"; };
+		7E41B2460F35F5A900B4567A /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = Settings/Resources/it.lproj/Phone.strings; sourceTree = "<group>"; };
+		7E41B2470F35F5B500B4567A /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = Settings/Resources/pt.lproj/Phone.strings; sourceTree = "<group>"; };
+		7E41B2480F35F5DF00B4567A /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = Settings/Resources/da.lproj/Network.strings; sourceTree = "<group>"; };
+		7E41B2490F35F5EC00B4567A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Settings/Resources/de.lproj/Network.strings; sourceTree = "<group>"; };
+		7E41B24A0F35F5FB00B4567A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Settings/Resources/es.lproj/Network.strings; sourceTree = "<group>"; };
+		7E41B24B0F35F60800B4567A /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Settings/Resources/fr.lproj/Network.strings; sourceTree = "<group>"; };
+		7E41B24C0F35F61500B4567A /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = Settings/Resources/it.lproj/Network.strings; sourceTree = "<group>"; };
+		7E41B24D0F35F62100B4567A /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = Settings/Resources/pt.lproj/Network.strings; sourceTree = "<group>"; };
+		7E4914950F89347400A0CF44 /* Codec.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Codec.plist; path = Settings/Resources/Codec.plist; sourceTree = "<group>"; };
+		7E4915100F894D1000A0CF44 /* zh_CN */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = zh_CN; path = Settings/Resources/zh_CN.lproj/Codec.strings; sourceTree = "<group>"; };
+		7E4915120F894D2300A0CF44 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = Settings/Resources/zh_TW.lproj/Codec.strings; sourceTree = "<group>"; };
+		7E4915250F894EA100A0CF44 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = Settings/Resources/ru.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7E4915260F894EA100A0CF44 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = Settings/Resources/ru.lproj/Network.strings; sourceTree = "<group>"; };
+		7E4915270F894EA100A0CF44 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = Settings/Resources/ru.lproj/Phone.strings; sourceTree = "<group>"; };
+		7E4915280F894EA100A0CF44 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = Settings/Resources/ru.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7E4A58B10F140399009B5B00 /* Phone.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Phone.plist; path = Settings/Resources/Phone.plist; sourceTree = "<group>"; };
+		7E4A58CE0F14180B009B5B00 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = Settings/Resources/en.lproj/Phone.strings; sourceTree = "<group>"; };
+		7E4A58D10F1418D1009B5B00 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Settings/Resources/fr.lproj/Phone.strings; sourceTree = "<group>"; };
+		7E4A58D20F1418DE009B5B00 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Settings/Resources/es.lproj/Phone.strings; sourceTree = "<group>"; };
+		7E92659710526FE800F94C25 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = Settings/Resources/he.lproj/Network.strings; sourceTree = "<group>"; };
+		7E9265981052700500F94C25 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = Settings/Resources/he.lproj/Phone.strings; sourceTree = "<group>"; };
+		7E9265991052701E00F94C25 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = Settings/Resources/he.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7E92659A1052703300F94C25 /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = Settings/Resources/he.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7E9431BC0F48A9F000EE69FC /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = Settings/Resources/cs.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7E9431BD0F48AA0800EE69FC /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = Settings/Resources/cs.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7E9431BE0F48AA1600EE69FC /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = Settings/Resources/cs.lproj/Phone.strings; sourceTree = "<group>"; };
+		7E9431BF0F48AA2500EE69FC /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = Settings/Resources/cs.lproj/Network.strings; sourceTree = "<group>"; };
+		7EC4236B1025E0D8005EDE22 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = Settings/Resources/ko.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7EC4236C1025E106005EDE22 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = Settings/Resources/ko.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7EC4236D1025E12B005EDE22 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = Settings/Resources/ko.lproj/Phone.strings; sourceTree = "<group>"; };
+		7EC423791025E21E005EDE22 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = Settings/Resources/ko.lproj/Network.strings; sourceTree = "<group>"; };
+		7EC4248D10283A17005EDE22 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = Settings/Resources/hr.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7EC4249A10283ADC005EDE22 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = Settings/Resources/hr.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7EC4249B10283B64005EDE22 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = Settings/Resources/hr.lproj/Phone.strings; sourceTree = "<group>"; };
+		7EC4249D10283BDE005EDE22 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = Settings/Resources/hr.lproj/Network.strings; sourceTree = "<group>"; };
+		7ECAB5EE0F0CBBE800DE9737 /* SiphonSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiphonSettings.h; sourceTree = "<group>"; };
+		7ECAB5EF0F0CBBE800DE9737 /* SiphonSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiphonSettings.m; sourceTree = "<group>"; };
+		7ECAB6230F0CBD4A00DE9737 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = Settings/Resources/en.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7ECAB6260F0CBD5A00DE9737 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = Settings/Resources/en.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7ECAB6290F0CBD8B00DE9737 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = Settings/Resources/da.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7ECAB6310F0CBDB800DE9737 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Settings/Resources/de.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7ECAB6320F0CBDB800DE9737 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Settings/Resources/de.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7ECAB6330F0CBDCB00DE9737 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Settings/Resources/es.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7ECAB6340F0CBDCB00DE9737 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Settings/Resources/es.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7ECAB6350F0CBDD900DE9737 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Settings/Resources/fr.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7ECAB6360F0CBDD900DE9737 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Settings/Resources/fr.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7ECAB6370F0CBDE800DE9737 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = Settings/Resources/it.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7ECAB6380F0CBDE800DE9737 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = Settings/Resources/it.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7ECAB6390F0CBDF700DE9737 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = Settings/Resources/pt.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7ECAB63A0F0CBDF700DE9737 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = Settings/Resources/pt.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7ECAB66C0F0CC27700DE9737 /* Advanced.plist */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.xml; name = Advanced.plist; path = Settings/Resources/Advanced.plist; sourceTree = "<group>"; };
+		7ECAB66D0F0CC27700DE9737 /* Siphon.plist */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.xml; name = Siphon.plist; path = Settings/Resources/Siphon.plist; sourceTree = "<group>"; };
+		7ECAB70B0F0CC2E100DE9737 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = Settings/Resources/da.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7ECAB7900F0CE28F00DE9737 /* icon-paypal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-paypal.png"; path = "Settings/Resources/icon-paypal.png"; sourceTree = "<group>"; };
+		7ECAB7920F0CE2E100DE9737 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Settings/Resources/icon.png; sourceTree = "<group>"; };
+		7ECAB7970F0CE77000DE9737 /* Preferences.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Preferences.framework; path = System/Library/PrivateFrameworks/Preferences.framework; sourceTree = SDKROOT; };
+		7ECAB8430F0D4B6B00DE9737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7ED87EC31132806800FB14D2 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = Settings/Resources/nl.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7ED87ED01132809F00FB14D2 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = Settings/Resources/nl.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7ED87ED5113280BD00FB14D2 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = Settings/Resources/nl.lproj/Phone.strings; sourceTree = "<group>"; };
+		7ED87ED6113280EE00FB14D2 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = Settings/Resources/nl.lproj/Network.strings; sourceTree = "<group>"; };
+		7ED87ED71132814A00FB14D2 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = Settings/Resources/sv.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7ED87ED81132814A00FB14D2 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = Settings/Resources/sv.lproj/Phone.strings; sourceTree = "<group>"; };
+		7ED87ED91132814A00FB14D2 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = Settings/Resources/sv.lproj/Network.strings; sourceTree = "<group>"; };
+		7ED87EDA1132814A00FB14D2 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = Settings/Resources/sv.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7EDD6E620F62A5C200952790 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = Settings/Resources/zh_CN.lproj/Network.strings; sourceTree = "<group>"; };
+		7EDD6E630F62A60500952790 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = Settings/Resources/zh_TW.lproj/Network.strings; sourceTree = "<group>"; };
+		7EDD6E640F62A61E00952790 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = Settings/Resources/zh_CN.lproj/Phone.strings; sourceTree = "<group>"; };
+		7EDD6E650F62A64000952790 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = Settings/Resources/zh_TW.lproj/Phone.strings; sourceTree = "<group>"; };
+		7EDD6E660F62A6B900952790 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = Settings/Resources/zh_CN.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7EDD6E670F62A6C600952790 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = Settings/Resources/zh_TW.lproj/Advanced.strings; sourceTree = "<group>"; };
+		7EDD6E680F62A76900952790 /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = Settings/Resources/zh_CN.lproj/Siphon.strings; sourceTree = "<group>"; };
+		7EDD6E690F62A77700952790 /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = Settings/Resources/zh_TW.lproj/Siphon.strings; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Settings/Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Settings/Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				7ECAB7980F0CE77000DE9737 /* Preferences.framework in Frameworks */,
+				7ECAB8440F0D4B6B00DE9737 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Settings/Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7ECAB5EE0F0CBBE800DE9737 /* SiphonSettings.h */,
+				7ECAB5EF0F0CBBE800DE9737 /* SiphonSettings.m */,
+			);
+			path = Settings/Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SiphonSettings.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Settings/Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7ECAB7920F0CE2E100DE9737 /* icon.png */,
+				7ECAB7900F0CE28F00DE9737 /* icon-paypal.png */,
+				7ECAB66D0F0CC27700DE9737 /* Siphon.plist */,
+				7ECAB66C0F0CC27700DE9737 /* Advanced.plist */,
+				7E4A58B10F140399009B5B00 /* Phone.plist */,
+				7E41B23C0F35ED4300B4567A /* Network.plist */,
+				7E4914950F89347400A0CF44 /* Codec.plist */,
+				8D1107310486CEB800E47090 /* Settings/Info.plist */,
+				7ECAB6220F0CBD4A00DE9737 /* Siphon.strings */,
+				7ECAB6250F0CBD5A00DE9737 /* Advanced.strings */,
+				7E49150F0F894D1000A0CF44 /* Codec.strings */,
+				7E4A58CD0F14180B009B5B00 /* Phone.strings */,
+				7E41B2410F35F56400B4567A /* Network.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ECAB8430F0D4B6B00DE9737 /* UIKit.framework */,
+				7ECAB7970F0CE77000DE9737 /* Preferences.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SiphonSettings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SiphonSettings" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				7E432FD6106623FF00949182 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiphonSettings;
+			productName = SiphonSettings;
+			productReference = 1D6058910D05DD3D006BFB54 /* SiphonSettings.bundle */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SiphonSettings" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				da,
+				de,
+				en,
+				es,
+				fr,
+				it,
+				pt,
+				sl,
+				cs,
+				zh_CN,
+				zh_TW,
+				ru,
+				il,
+				ko,
+				hr,
+				he,
+				ca,
+				sk,
+				nl,
+				sv,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SiphonSettings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECAB6240F0CBD4A00DE9737 /* Siphon.strings in Resources */,
+				7ECAB6270F0CBD5A00DE9737 /* Advanced.strings in Resources */,
+				7ECAB66E0F0CC27700DE9737 /* Advanced.plist in Resources */,
+				7ECAB66F0F0CC27700DE9737 /* Siphon.plist in Resources */,
+				7ECAB7910F0CE28F00DE9737 /* icon-paypal.png in Resources */,
+				7ECAB7930F0CE2E100DE9737 /* icon.png in Resources */,
+				7E4A58B20F140399009B5B00 /* Phone.plist in Resources */,
+				7E4A58CF0F14180B009B5B00 /* Phone.strings in Resources */,
+				7E41B23D0F35ED4300B4567A /* Network.plist in Resources */,
+				7E41B2430F35F56400B4567A /* Network.strings in Resources */,
+				7E4914960F89347400A0CF44 /* Codec.plist in Resources */,
+				7E4915110F894D1000A0CF44 /* Codec.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E432FD6106623FF00949182 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Code Signing (jailbreak) ${PRODUCT_NAME}\"\nldid -S \"${TARGET_BUILD_DIR}/${EXECUTABLE_PATH}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ECAB5F00F0CBBE800DE9737 /* SiphonSettings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E41B2410F35F56400B4567A /* Network.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E41B2420F35F56400B4567A /* en */,
+				7E05EF52106EC5A000670BB8 /* ca */,
+				7E9431BF0F48AA2500EE69FC /* cs */,
+				7E41B2480F35F5DF00B4567A /* da */,
+				7E41B2490F35F5EC00B4567A /* de */,
+				7E41B24A0F35F5FB00B4567A /* es */,
+				7E41B24B0F35F60800B4567A /* fr */,
+				7E92659710526FE800F94C25 /* he */,
+				7EC4249D10283BDE005EDE22 /* hr */,
+				7E41B24C0F35F61500B4567A /* it */,
+				7EC423791025E21E005EDE22 /* ko */,
+				7E4915260F894EA100A0CF44 /* ru */,
+				7ED87ED6113280EE00FB14D2 /* nl */,
+				7E41B24D0F35F62100B4567A /* pt */,
+				7E05EF63106ECA4300670BB8 /* sk */,
+				7E082DA20F3DD30E006E317E /* sl */,
+				7ED87ED91132814A00FB14D2 /* sv */,
+				7EDD6E620F62A5C200952790 /* zh_CN */,
+				7EDD6E630F62A60500952790 /* zh_TW */,
+			);
+			name = Network.strings;
+			sourceTree = "<group>";
+		};
+		7E49150F0F894D1000A0CF44 /* Codec.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E4915100F894D1000A0CF44 /* zh_CN */,
+				7E4915120F894D2300A0CF44 /* zh_TW */,
+			);
+			name = Codec.strings;
+			sourceTree = "<group>";
+		};
+		7E4A58CD0F14180B009B5B00 /* Phone.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E4A58CE0F14180B009B5B00 /* en */,
+				7E05EF51106EC58C00670BB8 /* ca */,
+				7E9431BE0F48AA1600EE69FC /* cs */,
+				7E41B2440F35F58D00B4567A /* da */,
+				7E41B2450F35F59C00B4567A /* de */,
+				7E4A58D20F1418DE009B5B00 /* es */,
+				7E4A58D10F1418D1009B5B00 /* fr */,
+				7E9265981052700500F94C25 /* he */,
+				7EC4249B10283B64005EDE22 /* hr */,
+				7E41B2460F35F5A900B4567A /* it */,
+				7EC4236D1025E12B005EDE22 /* ko */,
+				7ED87ED5113280BD00FB14D2 /* nl */,
+				7E41B2470F35F5B500B4567A /* pt */,
+				7E4915270F894EA100A0CF44 /* ru */,
+				7E05EF62106ECA1600670BB8 /* sk */,
+				7E082DA10F3DD2FD006E317E /* sl */,
+				7ED87ED81132814A00FB14D2 /* sv */,
+				7EDD6E640F62A61E00952790 /* zh_CN */,
+				7EDD6E650F62A64000952790 /* zh_TW */,
+			);
+			name = Phone.strings;
+			sourceTree = "<group>";
+		};
+		7ECAB6220F0CBD4A00DE9737 /* Siphon.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ECAB6230F0CBD4A00DE9737 /* en */,
+				7E05EF4F106EC55900670BB8 /* ca */,
+				7E9431BC0F48A9F000EE69FC /* cs */,
+				7ECAB6290F0CBD8B00DE9737 /* da */,
+				7ECAB6320F0CBDB800DE9737 /* de */,
+				7ECAB6340F0CBDCB00DE9737 /* es */,
+				7ECAB6360F0CBDD900DE9737 /* fr */,
+				7E92659A1052703300F94C25 /* he */,
+				7EC4248D10283A17005EDE22 /* hr */,
+				7ECAB6380F0CBDE800DE9737 /* it */,
+				7EC4236B1025E0D8005EDE22 /* ko */,
+				7ED87EC31132806800FB14D2 /* nl */,
+				7ECAB63A0F0CBDF700DE9737 /* pt */,
+				7E4915280F894EA100A0CF44 /* ru */,
+				7E05EF60106EC9C200670BB8 /* sk */,
+				7E082D9F0F3DD2C7006E317E /* sl */,
+				7ED87ED71132814A00FB14D2 /* sv */,
+				7EDD6E680F62A76900952790 /* zh_CN */,
+				7EDD6E690F62A77700952790 /* zh_TW */,
+			);
+			name = Siphon.strings;
+			sourceTree = "<group>";
+		};
+		7ECAB6250F0CBD5A00DE9737 /* Advanced.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ECAB6260F0CBD5A00DE9737 /* en */,
+				7E05EF50106EC57000670BB8 /* ca */,
+				7E9431BD0F48AA0800EE69FC /* cs */,
+				7ECAB70B0F0CC2E100DE9737 /* da */,
+				7ECAB6310F0CBDB800DE9737 /* de */,
+				7ECAB6330F0CBDCB00DE9737 /* es */,
+				7ECAB6350F0CBDD900DE9737 /* fr */,
+				7E9265991052701E00F94C25 /* he */,
+				7EC4249A10283ADC005EDE22 /* hr */,
+				7ECAB6370F0CBDE800DE9737 /* it */,
+				7EC4236C1025E106005EDE22 /* ko */,
+				7ED87ED01132809F00FB14D2 /* nl */,
+				7ECAB6390F0CBDF700DE9737 /* pt */,
+				7E4915250F894EA100A0CF44 /* ru */,
+				7E05EF61106EC9EA00670BB8 /* sk */,
+				7E082DA00F3DD2EE006E317E /* sl */,
+				7ED87EDA1132814A00FB14D2 /* sv */,
+				7EDD6E660F62A6B900952790 /* zh_CN */,
+				7EDD6E670F62A6C600952790 /* zh_TW */,
+			);
+			name = Advanced.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = Info.plist;
+				OTHER_LDFLAGS = "-bundle";
+				PRODUCT_NAME = SiphonSettings;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = SiphonSettings;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = Headers;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-bundle";
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+				STRINGS_FILE_OUTPUT_ENCODING = binary;
+				SYMROOT = build;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = Headers;
+				OTHER_LDFLAGS = "-bundle";
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2;
+				SYMROOT = build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SiphonSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SiphonSettings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

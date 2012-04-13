@@ -1,0 +1,108 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2011 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+"OK" = "OK";
+"Cancel" = "Cancel";
+"Answer" = "Answer";
+
+/* AccountSetupController */
+"New Account" = "New Account";
+
+/* AccountPreferencesViewController */
+"Account" = "Account";
+
+/* ActiveCallViewController */
+"Hide Keypad" = "Hide Keypad";
+"mute" = "mute";
+"keypad" = "keypad";
+"audio source" = "audio source";
+"add call" = "add call";
+"hold" = "hold";
+"speaker" = "speaker";
+"bluetooth" = "bluetooth";
+
+/* AKSIPUserAgent */
+"Incoming Call" = "Incoming Call";
+"Missed Call" = "Missed Call";
+"Open" = "Open";
+
+/* BottomButtonBar / BottomDualButtonBar */
+"End" = "End";
+"End Call + Answer" = "End Call + Answer";
+"Decline" = "Decline";
+
+/* FavoritesListController */
+"Favorites" = "Favorites";
+
+/* InAppSettings / SiphonAppDelegate */
+"Settings" = "Settings";
+
+/* PeoplePickerTableViewController */
+"Contacts" = "Contacts";
+
+/* PhoneViewController */
+"Keypad" = "Keypad";
+"Create New Contact" = "Create New Contact";
+"Add to Existing Contact" = "Add to Existing Contact";
+
+/* RecentCall */
+"Unknown" = "Unknown";
+
+/* RecentsViewController */
+"Recents" = "Recents";
+"Recent Calls" = "Recent Calls";
+"All" = "All";
+"Missed" = "Missed";
+"Clear" = "Clear";
+"Clear All Recents" = "Clear All Recents";
+
+/* SIPAccountController */
+"Error %d" = "Error %d";
+"The error was: \\U201C%d %@\\U201D." = "The error was: \\U201C%d %@\\U201D.";
+"calling %@..." = "calling %@...";
+"calling..." = "calling...";
+"Call Failed" = "Call Failed";
+"Could not register with %@." = "Could not register with %@.";
+"Please check network connection and Registry Server settings." = "Please check network connection and Registry Server settings.";
+"Available" = "Available";
+"Unavailable" = "Unavailable";
+"Offline" = "Offline";
+"Connecting..." = "Connecting...";
+"Authentication Failure" = "Authentication Failure";
+"Siphon was unable to login to %@. Change user name or password and try again." = "Siphon was unable to login to %@. Change user name or password and try again.";
+"incoming call..." = "incoming call...";
+
+/* SIPCallController */
+"call ended" = "call ended";
+"on remote hold" = "on remote hold";
+"off hold" = "off hold";
+"ringing" = "ringing";
+"address not found" = "address not found";
+"busy" = "busy";
+"call declined" = "call declined";
+"call transferred" = "call transferred";
+
+/* SIPController */
+"Could not start SIP user agent." = "Could not start SIP user agent.";
+"Failed to communicate with STUN server." = "Failed to communicate with STUN server.";
+"Symmetric NAT detected." = "Symmetric NAT detected.";
+
+/* SiphonCoreDataStorage */
+"Fatal database error" = "Fatal database error";
+"Unable to initialize database: %@" = "Unable to initialize database: %@";

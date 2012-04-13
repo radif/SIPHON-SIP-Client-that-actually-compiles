@@ -1,0 +1,55 @@
+Introduction
+============
+
+Siphon SIP-VoIP project is the first in his category that works both on iPhone 
+and iPod Touch. It is a native application approved running on OSX 1.1.1 - 1.1.3 
+using the Microphone built-in and the headset, and an external Microphone (for 
+example, designed by the Touchmods team) for the iPod Touch.
+
+The Application supports the SIP standard, preserving compatibility with 
+hundreds of SIP providers and offers a GUI which preserves the apple design of 
+native iPhone and iPod Touch applications.
+
+Compilation
+===========
+
+ PJSIP
+ =====
+ To compile Siphon, you need headers and static libraries of pjsip.
+ You can download on http://pjsip.org/
+ For the momennt, I don't release the media layer for ipod and iphone, so you 
+ need to configure with this line :
+   ./aconfigure --host=arm-apple-darwin --disable-speex-codec \
+   --disable-speex-aec --disable-sound
+ 
+ Like that, the media layer uses null sound. So you will be able to compile 
+ Siphon, but you won't be able to talk and hear your callee.
+ 
+ You can find implementation of pjmedia for ipod touch at :
+ 	http://code.google.com/p/siphon/downloads/list
+  
+ Siphon
+ ======
+ Go to src directory, modify makefile to indicate headers and static libraries.
+ Compile with : Make
+ 
+ Go to settings directory, modify makefile to indicate headers and static 
+ libraries.
+ Compile with : Make
+ 
+Installation
+============
+ Copy the content of dist directory on the root of your iphone or ipod touch.
+ 	cd /Widgets/Siphon.app
+ Define executable right to Siphon.
+ 	chmod 755 Siphon
+ 	
+ Be careful, there are some symboic links.
+
+Help
+====
+ If you want to help us to develop this application, you can send mail to
+ 	samuel [dot] vinson [at] free [dot] fr
+ 
+ You can use the site http://code.google.com/p/siphon/ to indicate bugs...
+ 

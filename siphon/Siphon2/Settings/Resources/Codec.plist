@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Codec</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.googlecode.siphon</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>G.711 (μ-Law)</string>
+			<key>key</key>
+			<string>enableG711u</string>
+			<key>default</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.googlecode.siphon</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>G.711 (A-Law)</string>
+			<key>key</key>
+			<string>enableG711a</string>
+			<key>default</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.googlecode.siphon</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>G.722</string>
+			<key>key</key>
+			<string>enableG722</string>
+			<key>default</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.googlecode.siphon</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>G.722.1</string>
+			<key>key</key>
+			<string>enableG7221</string>
+			<key>default</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.googlecode.siphon</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>GSM</string>
+			<key>key</key>
+			<string>enableGSM</string>
+			<key>default</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.googlecode.siphon</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>G.729</string>
+			<key>key</key>
+			<string>enableG729</string>
+			<key>default</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>

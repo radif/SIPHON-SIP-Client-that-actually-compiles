@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>label</key>
+			<string>SIP Account Options</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.googlecode.siphon</string>
+			<key>default</key>
+			<string>1800</string>
+			<key>key</key>
+			<string>regTimeout</string>
+			<key>isNumeric</key>
+			<true/>
+			<key>label</key>
+			<string>Reg. Timeout</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.googlecode.siphon</string>
+			<key>key</key>
+			<string>proxyServer</string>
+			<key>isURL</key>
+			<true/>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>label</key>
+			<string>Proxy Server</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.googlecode.siphon</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Enable NAT</string>
+			<key>key</key>
+			<string>enableNat</string>
+			<key>default</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.googlecode.siphon</string>
+			<key>key</key>
+			<string>authname</string>
+			<key>label</key>
+			<string>Auth. Username</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.googlecode.siphon</string>
+			<key>key</key>
+			<string>contact</string>
+			<key>isURL</key>
+			<true/>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>label</key>
+			<string>Contact</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.googlecode.siphon</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>label</key>
+			<string>Magic Jack</string>
+			<key>key</key>
+			<string>enableMJ</string>
+			<key>default</key>
+			<false/>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Advanced</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+"Favorites" = "Favorites";
+"Calls"     = "Calls";
+"Dialpad"   = "Dialpad";
+"Contacts"  = "Contacts";
+"Help"      = "Help";
+
+"Press the Home button" = "Press the Home button";
+"Siphon requires a valid\nSIP account.\n\nTo enter this information, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry."="Siphon requires a valid\nSIP account.\n\nTo enter this information, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry.";
+
+"Please connect to SIP-Server" = "Please connect to SIP-Server";
+
+"CALLING" = "calling…";
+"CALL_ENDED" = "call ended";
+"CALL_ENDING" = "call ending…";
+
+"Create New Contact" = "Create New Contact";
+"Add to Existing Contact" = "Add to Existing Contact";
+
+"Cancel" = "Cancel";
+

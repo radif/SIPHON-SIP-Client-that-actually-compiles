@@ -1,0 +1,49 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2011 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+ 
+ "Dialing Options" = "Dialing Options";
+ "Remove Intl Prefix" = "Remove Intl Prefix";
+ "Intl Prefix Substitution" = "Intl Prefix Substitution";
+ "Network Options" = "Network Options";
+ "Reg. Timeout" = "Reg. Timeout";
+ "Enable NAT" = "Enable NAT";
+ "Protocol" = "Protocol";
+ "Proxies" = "Proxies";
+ "Media Options" = "Media Options";
+ "DTMF Method" = "DTMF Method";
+ "Account Authentication Options" = "Account Authentication Options";
+ "Auth. name" = "Auth. name";
+ "Realm" = "Realm";
+ "Magic Jack" = "Magic Jack";
+ 
+ /* Protocol */
+ "Automatic" = "Automatic":
+ "UDP" = "UDP";
+ "TCP" = "TCP";
+ 
+ /* DTMF */
+ "RFC 2833" = "RFC 2833";
+ "SIP INFO" = "SIP INFO";
+ "Audio" = "Audio";
+
+/* Placeholder */
+"sipdomain.com" = "sipdomain.com";
+"username by default" = "username by default";
+"wildcard character ('*')" = "wildcard character ('*')";
+ 

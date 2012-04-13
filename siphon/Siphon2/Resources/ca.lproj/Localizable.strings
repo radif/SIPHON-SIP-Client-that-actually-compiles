@@ -1,0 +1,112 @@
+/**
+* Siphon SIP-VoIP per a iPhone i iPod Touch
+* Copyright (C) 2008-2010 Samuel <samuelv0304@gmail.com>
+*
+* This program is free software; you can redistribute it and / or modify
+* It under the terms of the GNU General Public License as published by
+* The Free Software Foundation, either version 2 of the License, or
+* (At your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* But WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. Veure els
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License along
+* With this program; if not, write to the Free Software Foundation,
+* 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+*
+*
+* =========================================================
+* Traducció al Català de Jordi Vidal <jordividal@gmail.com>
+* =========================================================
+*/
+
+/* Siphon */
+"Numpad" = "Teclat";
+"Favorites" = "Preferits";
+"Recents" = "Recents";
+"Voicemail" = "Bústia veu";
+
+/* PhoneView */
+"Create New Contact" = "Crear nou contacte";
+"Add to Existing Contact" = "Contacte existent";
+"The Wi-Fi network is unavailable!" = "No tens xarxa Wi-Fi!";
+"The SIP server is unreachable!" = "El servidor SIP no està disponible!";
+"You must enable Wi-Fi o SIP account to place a call." = "Habiliteu Wi-Fi i un compte SIP per fer una trucada.";
+"Cellular call" = "Trucada mòbil";
+
+"Connected" = "Connectat"; /* 200  */
+
+"Bad Request" = "Petició errònia"; /* 400 */
+"Unauthorized" = "No autoritzat"; /* 401 */
+"Payment Required" = "Pagament requerit"; /* 402 */
+"Forbidden" = "Prohibit"; /* 403 */
+"Not Found" = "No l'hem trobat"; /* 404 */
+"Method Not Allowed" = "Mètode no disponible"; /* 405 */
+"Not Acceptable" = "No acceptable"; /* 406 */
+"Proxy Authentication Required" = "Necessària autenticació al proxy"; /* 407 */
+"Request Timeout" = "Temps excedit"; /* 408 */
+
+"Service Unavailable" = "Servei no disponible";
+
+"No Microphone Available" = "Cap micròfon disponible";
+"Connect a microphone to phone" = "Connecteu un micròfon per trucar.";
+
+/* OK */
+"OK" = "D'acord";
+"Cancel" = "Parar";
+
+/* Intro page greeting */
+"Press the Home button" = "Premeu el botó Inici";
+
+/* Intro page greeting */
+"Siphon requires a valid\nSIP account.\n\nTo enter this information, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "Siphon necessita un compte \nSIP vàlida. \n\nPer introduir aquesta informació, seleccioneu \"Ajustaments\" des de la seva pantalla d'inici, i després premeu la opció \"Siphon\".";
+
+/* Call View */
+"Answer" = "Respondre";
+"Decline" = "Rebutjar";
+"End call" = "Finalitzar";
+"Small end call" = "Finalitzar";
+"Hold Call + Answer" = "Retenir + Contesteu";
+"End Call + Answer" = "Finalitzar + Contesteu";
+"Ignore" = "Evita";
+
+"calling ..." = "Trucant ...";
+"call ended" = "Trucada finalitzada";
+
+"Hide keypad" = "Amaga";
+"mute" = "silenci";
+"keypad" = "teclat";
+"speaker" = "altaveu";
+"add call" = "afegir trucada";
+"hold" = "en espera";
+"contacts" = "contactes";
+
+/* Recent calls */
+"Recent Calls" = "Trucades recents";
+"Missed Call" = "Trucada perduda";
+"Clear" = "Suprimeix";
+"All" = "Totes";
+"Missed" = "Perdudes";
+"Clear All Recents" = "Suprimeix recents";
+"Unknown Caller" = "Desconegut";
+"Unknown" = "Desconegut";
+"Incoming Call" = "Trucada entrant";
+"Outgoing Call" = "Trucada sortint";
+
+"Settings" = "Ajustaments";
+
+/* Voicemail */
+"Voicemail Number?" = "Nombre de bústia veu?";
+
+/* SIP */
+"\nTo correct this parameter, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "\nPer corregir aquesta opció, seleccioneu \"Ajustaments\" des de la seva pantalla d'inici, i després premeu la opció \"Siphon\".";
+"Invalid value for Local Port (expecting 1-65535)." = "Valor invàlid per port local (1-65535).";
+"Invalid value for RTP port (expecting 1-65535)." = "Valor invàlid per port RTP (1-65535).";
+"Invalid value for username or server." = "Valor invàlid per usuari o servidor.";
+"Invalid value for server parameter." = "Valor invàlid per a paràmetre del servidor.";
+"Invalid value for timeout (expecting 1-3600)." = "Valor invàlid per timeout (1-3600).";
+"Invalid value for proxy parameter." = "Valor invàlid per a paràmetre del proxy.";
+"Error adding new account." = "Error afegint nou compte.";
+

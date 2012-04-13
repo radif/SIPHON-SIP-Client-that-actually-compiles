@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Phone</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Media Options</string>
+		</dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSToggleSwitchSpecifier</string>
+                        <key>Title</key>
+                        <string>Echo Canceller</string>
+                        <key>Key</key>
+                        <string>enableEC</string>
+                        <key>DefaultValue</key>
+                        <false/>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSToggleSwitchSpecifier</string>
+                        <key>Title</key>
+                        <string>Silence Detector</string>
+                        <key>Key</key>
+                        <string>disableVad</string>
+                        <key>DefaultValue</key>
+                        <false/>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSChildPaneSpecifier</string>
+                        <key>Title</key>
+                        <string>Codec</string>
+                        <key>File</key>
+                        <string>Codec</string>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSToggleSwitchSpecifier</string>
+                        <key>Title</key>
+                        <string>Send DTMF with INFO</string>
+                        <key>Key</key>
+                        <string>dtmfWithInfo</string>
+                        <key>DefaultValue</key>
+                        <false/>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSGroupSpecifier</string>
+                        <key>Title</key>
+                        <string>Dialing Options</string>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSToggleSwitchSpecifier</string>
+                        <key>Title</key>
+                        <string>Keypad play sound</string>
+                        <key>Key</key>
+                        <string>keypadPlaySound</string>
+                        <key>DefaultValue</key>
+                        <true/>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSToggleSwitchSpecifier</string>
+                        <key>Title</key>
+                        <string>Remove Intl Prefix</string>
+                        <key>Key</key>
+                        <string>removeIntlPrefix</string>
+                        <key>DefaultValue</key>
+                        <false/>
+                </dict> 
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Intl Prefix Substitution</string>
+			<key>Key</key>
+			<string>intlPrefix</string>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSGroupSpecifier</string>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSTitleValueSpecifier</string>
+                        <key>Title</key>
+                        <string>You can define the substitution prefix for international prefix &apos;+&apos;, if your SIP provider doesn&apos;t manage it.</string>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSGroupSpecifier</string>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Debugging log file</string>
+                        <key>Key</key>
+                        <string>logLevel</string>
+                        <key>DefaultValue</key>
+                        <integer>0</integer>
+                        <key>Values</key>
+                        <array>
+                                <integer>0</integer>
+                                <integer>1</integer>
+                                <integer>2</integer>
+                                <integer>3</integer>
+                                <integer>4</integer>
+                                <integer>5</integer>
+                                <integer>6</integer>
+                        </array>
+                        <key>Titles</key>
+                        <array>
+                                <string>Disabled</string>
+                                <string>Error</string>
+                                <string>Warning</string>
+                                <string>Info</string>
+                                <string>Important</string>
+                                <string>Detailed</string>
+                                <string>Very detailed</string>
+                        </array>
+                </dict>
+	</array>
+</dict>
+</plist>

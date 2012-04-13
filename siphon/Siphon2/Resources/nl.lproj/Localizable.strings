@@ -1,0 +1,107 @@
+﻿/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2010 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/* Siphon */
+"Numpad" = "Toetsen";
+"Favorites" = "Favorieten";
+"Recents" = "Recent";
+"Voicemail" = "Voicemail";
+
+/* PhoneView */
+"Create New Contact" = "Maak nieuw contact";
+"Add to Existing Contact" = "Zet in bestaand contact";
+"The Wi-Fi network is unavailable!" = "Het Wi-Fi netwerk is niet beschikbaar!";
+"The SIP server is unreachable!" = "De SIP server is onbereikbaar!";
+"You must enable Wi-Fi or SIP account to place a call." = "Wi-Fi aanzetten of uw SIP account controleren om te kunnen bellen.";
+"Cellular call" = "Bellen via GSM-netwerk";
+
+"Connected" = "Verbonden"; /* 200 */
+
+"Bad Request" = "Bad Request"; /* 400 */
+"Unauthorized" = "Niet geautoriseerd"; /* 401 */
+"Payment Required" = "Betaling vereist"; /* 402 */
+"Forbidden" = "Verboden"; /* 403 */
+"Not Found" = "Niet gevonden"; /* 404 */
+"Method Not Allowed" = "Methode niet toegestaan"; /* 405 */
+"Not Acceptable" = "Niet geaccepteerd"; /* 406 */
+"Proxy Authentication Required" = "Proxy Authentication vereist"; /* 407 */
+"Request Timeout" = "Request Timeout"; /* 408 */
+
+"Service Unavailable" = "Service niet beschikbaar"; /* 503 */
+
+"No Microphone Available" = "Geen microfoon beschikbaar";
+"Connect a microphone to phone" = "Verbind een externe microfoon";
+
+/* OK */
+"OK" = "OK";
+"Cancel" = "Annuleer";
+
+/* Intro page greeting */
+"Press the Home button" = "Druk op de thuisknop";
+
+/* Intro page greeting */
+"Siphon requires a valid\nSIP account.\n\nTo enter this information, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "Siphon vereist een geldig\nSIP account.\n\nOm de account gegevens in te voeren, tik in het beginscherm op \"Instellingen\" > \"Siphon\".";
+
+/* Call View */
+"Answer" = "Antwoord";
+"Decline" = "Weiger";
+"End call" = "Stop gesprek";
+"Small end call" = "Stop";
+"Hold Call + Answer" = "In wacht en antwoord";
+"End Call + Answer" = "Stop en antwoord"; 
+"Ignore" = "Negeer"; 
+
+"calling..." = "bellen...";
+"call ended" = "gesprek beëindigd";
+
+"Hide Keypad" = "Toetsen verbergen";
+"mute" = "geluid uit";
+"keypad" = "toetsen";
+"speaker" = "luidspreker";
+"add call" = "voeg toe";
+"hold" = "wacht";
+"contacts" = "contacten";
+
+/* Recent calls */
+"Recent Calls" = "Recent";
+"Missed Call" = "Gemiste Oproep";
+"Clear" = "Wis";
+"All" = "Alles";
+"Missed" = "Gemist";
+"Clear All Recents" = "Wis alle recente";
+"Unknown Caller" = "Onbekend nummer";
+"Unknown" = "Onbekend";
+"Incoming Call" = "Inkomend";
+"Outgoing Call" = "Uitgaand";
+
+"Settings" = "Instellingen";
+
+/* Voicemail */
+"Voicemail Number?" = "Voicemail Nummer?";
+
+/* SIP */
+"\nTo correct this parameter, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "\nOm deze waarde te wijzigen, tik in het beginscherm op \"Instellingen\" > \"Siphon\".";
+"Invalid value for Local Port (expecting 1-65535)." = "Ongeldige waarde voor Local Port (verwacht 1-65535).";
+"Invalid value for RTP port (expecting 1-65535)." = "Ongeldige waarde voor RTP port (verwacht 1-65535).";
+"Invalid value for username or server." = "Ongeldige waarde voor gebruikersnaam of server.";
+"Invalid value for server parameter." = "Ongeldige waarde voor server.";
+"Invalid value for timeout (expecting 1-3600)." = "Ongeldige waarde voor timeout (verwacht 1-3600).";
+"Invalid value for proxy parameter." = "Ongeldige waarde voor proxy.";
+"Error adding new account." = "Fout bij toevoegen nieuw account.";
+

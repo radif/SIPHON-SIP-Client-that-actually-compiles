@@ -1,0 +1,108 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2010 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/* Siphon */
+"Numpad" = "键盘";
+"Favorites" = "最爱";
+"Recents" = "最近通话";
+"Voicemail" = "语音信箱";
+
+/* PhoneView */
+"Create New Contact" = "新增联络资讯";
+"Add to Existing Contact" = "加入现有的联络资讯";
+/*"The Wi-Fi network is unavailable!" = "The Wi-Fi network is unavailable!\nor\nthe SIP server is unreachable!";*/
+"The Wi-Fi network is unavailable!" = "Wi-Fi网络无法使用";
+"The SIP server is unreachable!" = "无法连接SIP伺服器";
+"You must enable Wi-Fi or SIP account to place a call." = "如要打电话，您必须启用Wi-Fi和拥有一个有效的SIP帐户 ";
+"Cellular call" = "手机拨号";
+
+"Connected" = "己连接"; /* 200 */
+
+"Bad Request" = "错误请求"; /* 400 */
+"Unauthorized" = "未经授权"; /* 401 */
+"Payment Required" = "需要缴费"; /* 402 */
+"Forbidden" = "不允许"; /* 403 */
+"Not Found" = "找不到"; /* 404 */
+"Method Not Allowed" = "方法不允许"; /* 405 */
+"Not Acceptable" = "不能接受"; /* 406 */
+"Proxy Authentication Required" = "需要Proxy验证"; /* 407 */
+"Request Timeout" = "请求超时"; /* 408 */
+
+"Service Unavailable" = "服务无效"; /* 503 */
+
+"No Microphone Available" = "无麦克风可用";
+"Connect a microphone to phone" = "Connect a microphone to phone";
+//请连接麦克风来录制语音备忘录。
+
+/* OK */
+"OK" = "好";
+"Cancel" = "取消";
+
+/* Intro page greeting */
+"Press the Home button" = "按主页按钮";
+
+/* Intro page greeting */
+"Siphon requires a valid\nSIP account.\n\nTo enter this information, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "Siphon需要一个有效的\nSIP帐户.\n\n如需输入帐户资料，从您的主屏幕选择\"设置\"然后按\"Siphon\"";
+
+/* Call View */
+"Answer" = "接听";
+"Decline" = "拒绝来电";
+"End call" = "结束通话";
+"Small end call" = "结束通话";
+"Hold Call + Answer" = "保留通话+接听";
+"End Call + Answer" = "结束通话+接听";
+"Ignore" = "忽略";
+
+"calling..." = "通话中…";
+"call ended" = "结束通话";
+
+"Hide Keypad" = "隐藏键盘";
+"mute" = "静音";
+"keypad" = "键盘";
+"speaker" = "免提通话";
+"add call" = "电话会议新增来电";
+"hold" = "保留";
+"contacts" = "通讯录";
+
+/* Recent calls */
+"Recent Calls" = "通话记录";
+"Missed Call" = "未接来电";
+"Clear" = "清除";
+"All" = "全部";
+"Missed" = "未接来电";
+"Clear All Recents" = "清除所有通话记录";
+"Unknown Caller" = "未知来电";
+"Unknown" = "未知";
+"Incoming Call" = "接听来电";
+"Outgoing Call" = "拨出电话";
+
+"Settings" = "设定";
+
+/* Voicemail */
+"Voicemail Number?" = "Voicemail Number?";
+
+/* SIP */
+"\nTo correct this parameter, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "\n要纠正此参数，从您的主屏幕选择\"设定\"，然后按\"SIP\"";
+"Invalid value for Local Port (expecting 1-65535)." = "本地端口的数据无效（预计1-65535).";
+"Invalid value for RTP port (expecting 1-65535)." = "RTP端口的数据无效（预计1-65535).";
+"Invalid value for username or server." = "用户名称或伺服器的数据无效.";
+"Invalid value for server parameter." = "伺服器的参数无效.";
+"Invalid value for timeout (expecting 1-3600)." = "超时值无效（预期1-3600).";
+"Invalid value for proxy parameter." = "PROXY参数无效.";
+"Error adding new account." = "新增帐户错误.";

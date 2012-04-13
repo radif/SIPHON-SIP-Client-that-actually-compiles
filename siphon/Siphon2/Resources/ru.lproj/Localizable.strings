@@ -1,0 +1,106 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2010 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/* Siphon */
+"Numpad" = "Клавиши";
+"Favorites" = "Избранное";
+"Recents" = "Последние";
+"Voicemail" = "Aвтоответч.";
+
+/* PhoneView */
+"Create New Contact" = "Создать новый Контакт";
+"Add to Existing Contact" = "Добавить в существующий Контакт";
+"The Wi-Fi network is unavailable!" = "Сеть Wi-Fi не доступна!";
+"The SIP server is unreachable!" = "SIP сервер не доступен!";
+"You must enable Wi-Fi or SIP account to place a call." = "Вам необходимо включить Wi-Fi или указать уч. запись SIP для совершения звонков.";
+"Cellular call" = "Мобильный вызов";
+
+"Connected" = "Соединен"; /* 200 */
+
+"Bad Request" = "Не верный запрос"; /* 400 */
+"Unauthorized" = "Не авторизован"; /* 401 */
+"Payment Required" = "Необходима оплата"; /* 402 */
+"Forbidden" = "Запрещен"; /* 403 */
+"Not Found" = "Не найден"; /* 404 */
+"Method Not Allowed" = "Метод не разрешен"; /* 405 */
+"Not Acceptable" = "Не приемлимо"; /* 406 */
+"Proxy Authentication Required" = "Необходима авторизация для прокси"; /* 407 */
+"Request Timeout" = "Время запроса исчерпно"; /* 408 */
+
+"Service Unavailable" = "Сервис не доступен"; /* 503 */
+
+"No Microphone Available" = "Нет микрофона";
+"Connect a microphone to phone" = "Connect a microphone to phone";
+//Подключите микрофон, чтобы произвести запись.
+
+/* OK */
+"OK" = "Ок";
+"Cancel" = "Отмена";
+
+/* Intro page greeting */
+"Press the Home button" = "Нажмите кнопку Домой";
+
+/* Intro page greeting */
+"Siphon requires a valid\nSIP account.\n\nTo enter this information, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "Siphon использует действующую уч. запись SIP.\n\nДля ввода этой информации, нажмите \"Настройки\" на вашем телефоне и затем выбирете пункт \"Siphon\".";
+/* Call View */
+"Answer" = "Ответить";
+"Decline" = "Отклонить";
+"End call" = "Конец вызова";
+"Small end call" = "Конец вызова";
+"Hold Call + Answer" = "Удержать + Ответить";
+"End Call + Answer" = "Завершить + Ответить";
+"Ignore" = "Игнорировать";
+
+"calling..." = "Вызов...";
+"call ended" = "Звонок завершен";
+
+"Hide Keypad" = "Скрыть клавиши";
+"mute" = "Выкл. звук";
+"keypad" = "клавиши";
+"speaker" = "Динамик";
+"add call" = "добавить вызов";
+"hold" = "удержать";
+"contacts" = "контакты";
+
+/* Recent calls */
+"Recent Calls" = "Последние вызовы";
+"Missed Call" = "Пропущенный вызовl";
+"Clear" = "Стереть";
+"All" = "Все";
+"Missed" = "Пропущенные";
+"Clear All Recents" = "Стереть все последние";
+"Unknown Caller" = "Аноним";
+"Unknown" = "Неизвестный";
+"Incoming Call" = "Входящий звонок";
+"Outgoing Call" = "Исходящий звонок";
+
+"Settings" = "Настройки";
+
+/* Voicemail */
+"Voicemail Number?" = "Номер автоответч.?";
+
+/* SIP */
+"\nTo correct this parameter, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "\nДля ввода этой информации, нажмите \"Настройки\" на вашем телефоне и затем выбирете пункт \"Siphon\".";
+"Invalid value for Local Port (expecting 1-65535)." = "Неверное значение локального порта (от 1 до 65535).";
+"Invalid value for RTP port (expecting 1-65535)." = "Неверное значение RTP порта (от 1 до 65535).";
+"Invalid value for username or server." = "Неверные значения имя пользователя или сервера.";
+"Invalid value for server parameter." = "Неверные значения параметров сервера.";
+"Invalid value for timeout (expecting 1-3600)." = "Неверное значение времени ожидания (от 1 до 3600).";
+"Invalid value for proxy parameter." = "Неверное значение параметра прокси сервера.";
+"Error adding new account." = "Ошибка добавления новой уч. записи";

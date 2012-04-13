@@ -1,0 +1,107 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2010 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/* Siphon */
+"Numpad" = "Klávesnice";
+"Favorites" = "Oblíbené";
+"Recents" = "Hovory";
+"Voicemail" = "Voicemail";
+
+/* PhoneView */
+"Create New Contact" = "Nový kontakt";
+"Add to Existing Contact" = "Přidat do existujicího kontaktu";
+"The Wi-Fi network is unavailable!" = "Wi-Fi síť je nedostupná!";
+"The SIP server is unreachable!" = "SIP server je nedostupný!";
+"You must enable Wi-Fi or SIP account to place a call." = "Musíte povolit Wi-Fi nebo SIP účet pro provedení hovoru.";
+"Cellular call" = "Obyčejný hovor";
+
+"Connected" = "Připojeno";   /* 200 */
+
+"Bad Request" = "Špatné čislo";   /* 400 */
+"Unauthorized" = "Neautorizován";   /* 401 */
+"Payment Required" = "Vyžadován poplatek";   /* 402 */
+"Forbidden" = "Zakázané";   /* 403 */
+"Not Found" = "Nenalezeno";   /* 404 */
+"Method Not Allowed" = "Metoda není povolena";   /* 405 */
+"Not Acceptable" = "Neakceptovatelné";   /* 406 */
+"Proxy Authentication Required" = "Proxy autentifikace vyžadována";   /* 407 */
+"Request Timeout" = "Timeout požadavku";   /* 408 */
+
+"Service Unavailable" = "Služba je nedostupná";
+
+"No Microphone Available" = "Chybí mikrofon";
+"Connect a microphone to phone" = "Connect a microphone to phone";
+//Chcete-li zaznamenat hlasovou poznámku, připojte mikrofon,
+
+/* OK */
+"OK" = "OK";
+"Cancel" = "Zrušit";
+
+/* Intro page greeting */
+"Press the Home button" = "Stiskněte talčítko domů";
+
+/* Intro page greeting */
+"Siphon requires a valid\nSIP account.\n\nTo enter this information, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "Siphon vyžaduje platný\nSIP účet.\n\nPro nstavení vašeho účtu najeďte do kategorie Siphon v nastavení vašeho iPhonu.";
+
+/* Call View */
+"Answer" = "Odpověď";
+"Decline" = "Odmitnout";
+"End call" = "Ukončit hovor";
+"Small end call" = "Ukončit hovor";
+"Hold Call + Answer" = "Podržet hovor a odpovědět";
+"End Call + Answer" = "Ukončit hovor a odpovědět";
+"Ignore" = "Ignorovat";
+
+"calling..." = "volám...";
+"call ended" = "hovor byl ukončen";
+
+"Hide Keypad" = "Schovat klávesnici";
+"mute" = "ztišit";
+"keypad" = "klávesnice";
+"speaker" = "reproduktor";
+"add call" = "přidat hovor";
+"hold" = "podržet";
+"contacts" = "konktakty";
+
+/* Recent calls */
+"Recent Calls" = "Hovory";
+"Missed Call" = "Zmeškané hovory";
+"Clear" = "Vymazat";
+"All" = "Všechny";
+"Missed" = "Zmeškané";
+"Clear All Recents" = "Vymazat všechny hovory";
+"Unknown Caller" = "Neznámý volající";
+"Unknown" = "Neznámý";
+"Incoming Call" = "Příchozí hovor";
+"Outgoing Call" = "Odchozí hovory";
+
+"Settings" = "Nastavení";
+
+/* Voicemail */
+"Voicemail Number?" = "Voicemail Number?";
+
+/* SIP */
+"\nTo correct this parameter, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "\nTo correct this parameter, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry.";
+"Invalid value for Local Port (expecting 1-65535)." = "Nesprávná hodnota pro lokálná port (rozsah hodnot 1-65535).";
+"Invalid value for RTP port (expecting 1-65535)." = "Nesprávná hodnota pro RTP port (rozsah hodnot  1-65535).";
+"Invalid value for username or server." = "Nesprávný tvar uživatelského jména či serveru.";
+"Invalid value for server parameter." = "Nesprávné parametry pro server.";
+"Invalid value for timeout (expecting 1-3600)." = "Nesprávný hodnota pro timeout (rozsah hodnot 1-3600).";
+"Invalid value for proxy parameter." = "Nesprávné parametry pro proxy.";
+"Error adding new account." = "Chyba při vytváření nového kontaktu.";

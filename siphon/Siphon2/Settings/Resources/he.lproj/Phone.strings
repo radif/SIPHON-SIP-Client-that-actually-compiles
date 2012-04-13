@@ -1,0 +1,44 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2009 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+"Phone" = "טלפון";
+
+/* Media Options */
+"Media Options" = "אפשרויות מדיה";
+"Echo Canceller" = "ביטול הד";
+"Silence Detector" = "מאתר דממה";
+"Codec" = "קודק";
+"Send DTMF with INFO" = "עם מידע DTMF שלח";
+
+/* Dialing Options */
+"Dialing Options" = "אפשרויות חיוג";
+"Intl Prefix Substitution" = "Intl Prefix Substitution";
+"You can define the substitution prefix for international prefix '+', if your SIP provider doesn't manage it." = "You can define the substitution prefix for international prefix '+', if your SIP provider doesn't manage it.";
+
+/* Enable/Disable log file */
+"Debugging log file" = "Debugging log file";
+
+/* Logging Verbosity */
+"Disabled" = "מבוטל";
+"Error" = "שגיאה";
+"Warning" = "אזהרה";
+"Info" = "מידע";
+"Important" = "חשוב";
+"Detailed" = "מפורט";
+"Very detailed" = "מפורט מאוד";

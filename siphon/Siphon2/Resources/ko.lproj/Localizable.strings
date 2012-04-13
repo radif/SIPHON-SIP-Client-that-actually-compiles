@@ -1,0 +1,112 @@
+/**
+  * Siphon SIP-VoIP for iPhone and iPod Touch
+  * Copyright (C) 2008-2010 Samuel <samuelv0304@gmail.com>
+  *
+  * This program is free software; you can redistribute it and/or modify
+  * it under the terms of the GNU General Public License as published by
+  * the Free Software Foundation; either version 2 of the License, or
+  * (at your option) any later version.
+  *
+  * This program is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  * GNU General Public License for more details.
+  *
+  * You should have received a copy of the GNU General Public License along
+  * with this program; if not, write to the Free Software Foundation, Inc.,
+  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+  */
+
+/**
+  /* Korean Localization by Youngjin Park <parkyj@gmail.com> 
+  */
+
+/* Siphon */
+"Numpad" = "숫자패드";
+"Favorites" = "즐겨찾기";
+"Recents" = "최근통화";
+"Voicemail" = "음성 메시지";
+
+/* PhoneView */
+"Create New Contact" = "새로운 연락처";
+"Add to Existing Contact" = "기존 연락처에 추가";
+"The Wi-Fi network is unavailable!" = "Wi-Fi 네트워크에 연결할 수 없습니다!";
+"The SIP server is unreachable!" = "SIP서버에 접속할 수 없습니다!";
+"You must enable Wi-Fi or SIP account to place a call." = "통화를 위해서는 Wi-Fi에 연결하거나 SIP계정이 필요합니다.";
+"Cellular call" = "셀룰러 통화";
+
+"Connected" = "연결됨"; /* 200 */
+
+"Bad Request" = "잘못된 요청"; /* 400 */
+"Unauthorized" = "권한 없음"; /* 401 */
+"Payment Required" = "요금 청구됨"; /* 402 */
+"Forbidden" = "접근 금지"; /* 403 */
+"Not Found" = "찾을 수 없음"; /* 404 */
+"Method Not Allowed" = "메소드 허용안됨"; /* 405 */
+"Not Acceptable" = "수락할 수 없음"; /* 406 */
+"Proxy Authentication Required" = "프록시 인증 필요"; /* 407 */
+"Request Timeout" = "요청시간 초과"; /* 408 */
+
+"Service Unavailable" = "서비스 불가능"; /* 503 */
+
+"No Microphone Available" = "사용 가능한 마이크 없음";
+"Connect a microphone to phone" = "Connect a microphone to phone";
+//음성 메모를 녹음하려면 마이크를 연결하십시오.
+
+/* OK */
+"OK" = "확인";
+"Cancel" = "취소";
+
+/* Intro page greeting */
+"Press the Home button" = "홈 버튼을 누르세요";
+
+/* Intro page greeting */
+"Siphon requires a valid\nSIP account.\n\nTo enter this information, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "Siphon은 유효한\nSIP계정이 필요합니다.\n\n계정정보는 홈 화면의 \"설정\"버튼을 선택한 후, \"Siphon\"탭을 선택하세요.";
+
+/* Call View */
+"Answer" = "받기";
+"Decline" = "거절";
+"End call" = "통화종료";
+"Small end call" = "통화종료";
+"Hold Call + Answer" = "대기통화";
+"End Call + Answer" = "종료후 통화";
+"Ignore" = "무시";
+
+"calling..." = "통화연결중...";
+"call ended" = "통화종료됨";
+
+"Hide Keypad" = "키패드 숨기기";
+"mute" = "음소거";
+"keypad" = "키패드";
+"speaker" = "스피커";
+"add call" = "통화 추가";
+"hold" = "홀드";
+"contacts" = "연락처";
+
+/* Recent calls */
+"Recent Calls" = "최근 통화";
+"Missed Call" = "부재중 통화";
+"Clear" = "삭제";
+"All" = "모두";
+"Missed" = "부재중";
+"Clear All Recents" = "통화기록 삭제";
+"Unknown Caller" = "발신자 불분명";
+"Unknown" = "알수없음";
+"Incoming Call" = "수신통화";
+"Outgoing Call" = "발신통화";
+
+"Settings" = "설정";
+
+/* Voicemail */
+"Voicemail Number?" = "Voicemail Number?";
+
+/* SIP */
+"\nTo correct this parameter, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "\n이 값을 변경하려면, 홈 화면의 \"설정\"버튼을 선택한 후, \"Siphon\"탭을 선택하세요";
+"Invalid value for Local Port (expecting 1-65535)." = "잘못된 로컬포트입니다.(범위 1-65535).";
+"Invalid value for RTP port (expecting 1-65535)." = "잘못된 RTP포트입니다. (범위 1-65535).";
+"Invalid value for username or server." = "사용자 이름이나 서버가 잘못 입력되었습니다.";
+"Invalid value for server parameter." = "서버값이 잘못 입력되었습니다.";
+"Invalid value for timeout (expecting 1-3600)." = "시간초과값이 잘못 입력되었습니다 (범위 1-3600).";
+"Invalid value for proxy parameter." = "프록시 설정값이 잘못 입력되었습니다.";
+"Error adding new account." = "새로운 계정 입력시 에러가 발생하였습니다.";
+

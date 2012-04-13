@@ -1,0 +1,14 @@
+    encoder    |    decoder     - iPhone 3G
+---------------+---------------
+spch_dos.inp   | spch_dos.cod   - 20091216
+real  0m4.097s | real  0m0.828s - (copy, set_zero)
+user  0m3.940s | user  0m0.750s
+sys   0m0.090s | sys   0m0.070s
+                                - 20091220
+real  0m1.904s | real 0m0.382s  - (basic_op2, oper32b, mac_32, syn_filt, g_pitch)
+user  0m1.770s | user 0m0.250s
+sys   0m0.070s | sys  0m0.100s
+
+real  0m1.592s | real 0m0.346s
+user  0m1.470s | user 0m0.280s
+sys   0m0.080s | sys  0m0.050s

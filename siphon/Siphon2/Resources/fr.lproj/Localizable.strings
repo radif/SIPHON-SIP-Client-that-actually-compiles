@@ -1,0 +1,107 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2010 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/* Siphon */
+"Numpad" = "Clavier";
+"Favorites" = "Favoris";
+"Recents" = "Appels";
+"Voicemail" = "Messagerie";
+
+/* PhoneView */
+"Create New Contact" = "Créer un nouveau contact";
+"Add to Existing Contact" = "Ajouter à un contact";
+/*"The Wi-Fi network is unavailable!" = "Le réseau Wi-Fi est indisponible !\nou\nle serveur SIP est injoignable !";*/
+"The Wi-Fi network is unavailable!" = "Le réseau Wi-Fi est indisponible !";
+"The SIP server is unreachable!" = "Le serveur SIP est injoignable !";
+"You must enable Wi-Fi or SIP account to place a call." = "Vous devez activer le Wi-Fi ou un compte SIP pour téléphoner.";
+"Cellular call" = "Appel GSM";
+
+"Connected" = "Connecté"; /* 200 */
+
+"Bad Request" = "Requête mal formée"; /* 400 */
+"Unauthorized" = "Problème d'autorisation"; /* 401 */
+"Payment Required" = "Paiement nécessaire"; /* 402 */
+"Forbidden" = "Paramètres interdits"; /* 403 */
+"Not Found" = "Destination introuvable"; /* 404 */
+"Method Not Allowed" = "Méthode non autorisée"; /* 405 */
+"Not Acceptable" = "Not Acceptable"; /* 406 */
+"Proxy Authentication Required" = "Authentification requise"; /* 407 */
+"Request Timeout" = "Requête expirée"; /* 408 */
+
+"Service Unavailable" = "Service indisponible"; /* 503 */
+
+"No Microphone Available" = "Aucun Micro";
+"Connect a microphone to phone" = "Branchez un micro pour téléphoner";
+
+/* OK */
+"OK" = "OK";
+"Cancel" = "Annuler";
+
+/* Intro page greeting */
+"Press the Home button" = "Pressez le bouton Home";
+
+/* Intro page greeting */
+"Siphon requires a valid\nSIP account.\n\nTo enter this information, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "Siphon nécessite un compte\nSIP valide.\n\nPour saisir cette information, sélectionnez \"Réglages\" sur le bureau, puis sélectionnez \"Siphon\".";
+
+/* Call View */
+"Answer" = "Répondre";
+"Decline" = "Refuser";
+"End call" = "Raccrocher";
+"Small end call" = "Fin";
+"Hold Call + Answer" = "Suspendre et répondre";
+"End Call + Answer" = "Raccr. et répondre";
+"Ignore" = "Ignorer";
+
+"calling..." = "appel en cours...";
+"call ended" = "appel terminé";
+
+"Hide Keypad" = "Menu";
+"mute" = "silence";
+"keypad" = "clavier";
+"speaker" = "haut-parleur";
+"add call" = "nouvel appel";
+"hold" = "suspendre";
+"contacts" = "contacts";
+
+/* Recent calls */
+"Recent Calls" = "Derniers appels";
+"Missed Call" = "Appel Manqué";
+"Clear" = "Effacer";
+"All" = "Tous";
+"Missed" = "Manqués";
+"Clear All Recents" = "Effacer tous les appels";
+"Unknown Caller" = "Appelant inconnu";
+"Unknown" = "Inconnu";
+"Incoming Call" = "Appel entrant";
+"Outgoing Call" = "Appel sortant";
+
+"Settings" = "Réglages";
+
+/* Voicemail */
+"Voicemail Number?" = "Numéro de messagerie ?";
+
+/* SIP */
+"\nTo correct this parameter, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "\nPour corriger ce paramètre, sélectionnez \"Réglages\" sur le bureau, puis sélectionnez \"Siphon\".";
+"Invalid value for Local Port (expecting 1-65535)." = "Valeur incorrecte pour le paramètre Port Local (1-65535).";
+"Invalid value for RTP port (expecting 1-65535)." = "Valeur incorrecte pour le paramètre port RTP (1-65535).";
+"Invalid value for username or server." = "Valeur incorrecte pour le paramètre Nom ou Serveur.";
+"Invalid value for server parameter." = "Valeur incorrecte pour le paramètre Serveur.";
+"Invalid value for timeout (expecting 1-3600)." = "Valeur incorrecte pour le paramètre Reg. Timeout (1-3600).";
+"Invalid value for proxy parameter." = "Valeur incorrecte pour le paramètre Proxy.";
+"Error adding new account." = "Erreur lors de l'ajout du compte.";

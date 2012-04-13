@@ -1,0 +1,47 @@
+﻿/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2009 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+"Phone" = "Telefoon";
+
+/* Media Options */
+"Media Options" = "Media Opties";
+"Echo Canceller" = "Echo Canceller";
+"Silence Detector" = "Silence Detector";
+"Codec" = "Codec";
+"Send DTMF with INFO" = "Zend DTMF met INFO";
+
+/* Dialing Options */
+"Dialing Options" = "Kies Opties";
+"Remove Intl Prefix" = "Verwijder Intl Netnr";
+"Intl Prefix Substitution" = "Internat. Netnr Alternatief";
+"You can define the substitution prefix for international prefix '+', if your SIP provider doesn't manage it." = "U kunt een vervangend netnummer voor het internationale netnummer '+' kiezen als uw SIP provider het niet ondersteunt";
+"Keypad play sound" = "Keypad geluid";
+"Cellular button" = "GSM toets";
+
+/* Enable/Disable log file */
+"Debugging log file" = "Debugging log file";
+/* Logging Verbosity */
+"Disabled" = "Uitgeschakeld";
+"Error" = "Fout";
+"Warning" = "Waarschuwing";
+"Info" = "Info";
+"Important" = "Belangrijk";
+"Detailed" = "Gedetaileerd";
+"Very detailed" = "Zeer gedetaileerd";
+

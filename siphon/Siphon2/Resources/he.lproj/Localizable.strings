@@ -1,0 +1,107 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2010 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/* Siphon */
+"Numpad" = "לוח מספרים";
+"Favorites" = "מועדפים";
+"Recents" = "אחרונות";
+"Voicemail" = "תא קולי";
+
+/* PhoneView */
+"Create New Contact" = "הוסף איש קשר חדש";
+"Add to Existing Contact" = "הוסף לאיש קשר קיים";
+"The Wi-Fi network is unavailable!" = "רשת אלחוטית אינה זמינה!";
+"The SIP server is unreachable!" = "שרת ה-SIP אינו זמין!";
+"You must enable Wi-Fi or SIP account to place a call." = "עליך להיות מחובר לרשת אלחוטית ולהגדיר חשבון סיפ כדי לבצע שיחה.";
+"Cellular call" = "סלולרי";
+
+"Connected" = "מחובר"; /* 200 */
+
+"Bad Request" = "בקשה שגויה"; /* 400 */
+"Unauthorized" = "לא מורשה"; /* 401 */
+"Payment Required" = "דרוש תשלום"; /* 402 */
+"Forbidden" = "אסור"; /* 403 */
+"Not Found" = "לא נמצא"; /* 404 */
+"Method Not Allowed" = "שיטה לא מאושרת"; /* 405 */
+"Not Acceptable" = "לא ישים"; /* 406 */
+"Proxy Authentication Required" = "אימות פרוקסי דרוש"; /* 407 */
+"Request Timeout" = "זמן בקשה עבר"; /* 408 */
+
+"Service Unavailable" = "שירות לא זמין"; /* 503 */
+
+"No Microphone Available" = "המיקרופון אינו זמין";
+"Connect a microphone to phone" = "Connect a microphone to phone";
+//חבר/י מיקרפון להקלטת תזכורות קוליות.
+
+/* OK */
+"OK" = "אישור";
+"Cancel" = "ביטול";
+
+/* Intro page greeting */
+"Press the Home button" = "לחץ על מקש הבית";
+
+/* Intro page greeting */
+"Siphon requires a valid\nSIP account.\n\nTo enter this information, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "דרוש חשבון סיפ Siphon על מנת להשתמש\nכדי להקיש את פרטי החשבון, בחר בתפריט הגדרות ממסך הבית, ואז לחץ על סיפון.";
+
+/* Call View */
+"Answer" = "ענה";
+"Decline" = "וויתור";
+"End call" = "סיים שיחה";
+"Small end call" = "סיום שיחה";
+"Hold Call + Answer" = "החזק שיחה + מענה";
+"End Call + Answer" = "סיום שיחה + מענה";
+"Ignore" = "התעלם";
+
+"calling..." = "...מתקשר";
+"call ended" = "שיחה הסתיימה";
+
+"Hide Keypad" = "החבא לוח מספרים";
+"mute" = "השתק";
+"keypad" = "לוח מספרים";
+"speaker" = "רמקול";
+"add call" = "הוסף שיחה";
+"hold" = "החזק";
+"contacts" = "אנשי קשר";
+
+/* Recent calls */
+"Recent Calls" = "שיחות אחרונות";
+"Missed Call" = "שיחה שלא נענתה";
+"Clear" = "נקה";
+"All" = "הכל";
+"Missed" = "לא נענו";
+"Clear All Recents" = "נקה את השיחות האחרונות";
+"Unknown Caller" = "מתקשר לא מזוהה";
+"Unknown" = "לא מזוהה";
+"Incoming Call" = "שיחה נכנסת";
+"Outgoing Call" = "שיחה יוצאת";
+
+"Settings" = "הגדרות";
+
+/* Voicemail */
+"Voicemail Number?" = "Voicemail Number?";
+
+/* SIP */
+"\nTo correct this parameter, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "\nלתיקון אפשרות זו, היכנס \"להגדרות\" מתפריט הבית, ואז בחר באפשרות SIPHON.";
+"Invalid value for Local Port (expecting 1-65535)." = "ערך לא חוקי עבור יציאה מקומית (מצופה 1-65535).";
+"Invalid value for RTP port (expecting 1-65535)." = "ערך לא חוקי עבור יציאת RTP (מצופה 1-65535).";
+"Invalid value for username or server." = "ערך לא חוקי עבור שם משתמש או שם שרת.";
+"Invalid value for server parameter." = "ערך לא חוקי עבור הגדרות שרת.";
+"Invalid value for timeout (expecting 1-3600)." = "ערך לא חוקי עבור פסק זמן (מצופה 1-3600) .";
+"Invalid value for proxy parameter." = "ערך לא חוקי עבור שרת פרוקסי.";
+"Error adding new account." = "שגיאה בהוספת איש קשר חדש";

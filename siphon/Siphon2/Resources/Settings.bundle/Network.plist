@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Network</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSToggleSwitchSpecifier</string>
+                        <key>Title</key>
+                        <string>Siphon over EDGE/3G</string>
+                        <key>Key</key>
+                        <string>siphonOverEDGE</string>
+                        <key>DefaultValue</key>
+                        <false/>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSGroupSpecifier</string>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSTitleValueSpecifier</string>
+                        <key>label</key>
+                        <string>You must read your mobile subscription agreement before activate this option. The author is not responsible of your &quot;Siphon&quot; usage.</string>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSGroupSpecifier</string>
+                        <key>Title</key>
+                        <string>Transport Options</string>
+                </dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Local Port</string>
+			<key>Key</key>
+			<string>localPort</string>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSTextFieldSpecifier</string>
+                        <key>Title</key>
+                        <string>STUN Server</string>
+                        <key>Key</key>
+                        <string>stunServer</string>
+                        <key>KeyboardType</key>
+                        <string>URL</string>
+                        <key>AutocapitalizationType</key>
+                        <string>None</string>
+                        <key>AutocorrectionType</key>
+                        <string>No</string>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSTextFieldSpecifier</string>
+                        <key>Title</key>
+                        <string>DNS</string>
+                        <key>Key</key>
+                        <string>dnsServer</string>
+                        <key>KeyboardType</key>
+                        <string>URL</string>
+                        <key>AutocapitalizationType</key>
+                        <string>None</string>
+                        <key>AutocorrectionType</key>
+                        <string>No</string>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSTextFieldSpecifier</string>
+                        <key>Title</key>
+                        <string>Keep Alive Interval</string>
+                        <key>Key</key>
+                        <string>kaInterval</string>
+                        <key>KeyboardType</key>
+                        <string>NumberPad</string>
+                        <key>AutocapitalizationType</key>
+                        <string>None</string>
+                        <key>AutocorrectionType</key>
+                        <string>No</string>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSGroupSpecifier</string>
+                        <key>Title</key>
+                        <string>VPN (Temporary)</string>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSTextFieldSpecifier</string>
+                        <key>Title</key>
+                        <string>Public IP address</string>
+                        <key>Key</key>
+                        <string>publicAddr</string>
+                        <key>KeyboardType</key>
+                        <string>URL</string>
+                        <key>AutocapitalizationType</key>
+                        <string>None</string>
+                        <key>AutocorrectionType</key>
+                        <string>No</string>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSTextFieldSpecifier</string>
+                        <key>Title</key>
+                        <string>Bound IP Address</string>
+                        <key>Key</key>
+                        <string>boundAddr</string>
+                        <key>KeyboardType</key>
+                        <string>URL</string>
+                        <key>AutocapitalizationType</key>
+                        <string>None</string>
+                        <key>AutocorrectionType</key>
+                        <string>No</string>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSGroupSpecifier</string>
+                        <key>Title</key>
+                        <string>Media Transport Options</string>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSTextFieldSpecifier</string>
+                        <key>Title</key>
+                        <string>RTP Port</string>
+                        <key>Key</key>                        
+                        <string>rtpPort</string>
+                        <key>KeyboardType</key>
+                        <string>NumberPad</string>
+                        <key>AutocapitalizationType</key>
+                        <string>None</string>
+                        <key>AutocorrectionType</key>
+                        <string>No</string>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSToggleSwitchSpecifier</string>
+                        <key>Title</key>
+                        <string>Enable ICE</string>
+                        <key>Key</key>
+                        <string>enableICE</string>
+                        <key>DefaultValue</key>
+                        <false/>
+                </dict>
+	</array>
+</dict>
+</plist>

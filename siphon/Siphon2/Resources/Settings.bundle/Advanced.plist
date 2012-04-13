@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Advanced</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>SIP Account Options</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Reg. Timeout</string>
+			<key>Key</key>
+			<string>regTimeout</string>
+			<key>KeyboardType</key>
+			<string>NumberPad</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSTextFieldSpecifier</string>
+                        <key>Title</key>
+                        <string>Proxy Server</string>
+                        <key>Key</key>
+                        <string>proxyServer</string>
+                        <key>KeyboardType</key>
+                        <string>URL</string>
+                        <key>AutocapitalizationType</key>
+                        <string>None</string>
+                        <key>AutocorrectionType</key>
+                        <string>No</string>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSToggleSwitchSpecifier</string>
+                        <key>Title</key>
+                        <string>Enable NAT</string>
+                        <key>Key</key>
+                        <string>enableNat</string>
+                        <key>DefaultValue</key>
+                        <false/>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSTextFieldSpecifier</string>
+                        <key>Title</key>
+                        <string>Auth. Username</string>
+                        <key>Key</key>
+                        <string>authname</string>
+                        <key>KeyboardType</key>
+                        <string>Alphabet</string>
+                        <key>AutocapitalizationType</key>
+                        <string>None</string>
+                        <key>AutocorrectionType</key>
+                        <string>No</string>
+                </dict>
+                <dict>
+                        <key>Type</key>
+                        <string>PSTextFieldSpecifier</string>
+                        <key>Title</key>
+                        <string>Contact</string>
+                        <key>Key</key>
+                        <string>contact</string>
+                        <key>KeyboardType</key>
+                        <string>URL</string>
+                        <key>AutocapitalizationType</key>
+                        <string>None</string>
+                        <key>AutocorrectionType</key>
+                        <string>No</string>
+                </dict>
+	</array>
+</dict>
+</plist>

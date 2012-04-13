@@ -1,0 +1,46 @@
+"Account" = "Account";
+
+/* SIP username */
+"Username" = "Benutzername";
+
+/* SIP password */
+"Password" = "Passwort";
+
+/* SIP server */
+"Server" = "Server";
+
+/* Register Time-out */
+"Reg-Timeout" = "Reg-Timeout";
+
+/* Enable/Disable EDGE usage */
+"Siphon over EDGE" = "Verbindung Über EDGE";
+ 
+/* Enable/Disable NAT */
+"Enable Nat" = "Aktiviere NAT";
+
+/* */
+"STUN Domain" = "STUN Domain";
+
+/* */
+"STUN Server" = "STUN Server";
+
+/* Enable/Disable log file */
+"Debugging log file" = "Schreibe Logfile";
+
+/* */
+"Advanced settings" = "Advanced settings";
+"Reg-Timeout" = "Reg-Timeout";
+"Local Port" = "Local Port";
+"RTP Port" = "RTP Port";
+"Enable Nat" = "Enable Nat";
+"STUN Domain" = "STUN Domain";
+"STUN Server" = "STUN Server";
+
+/* Logging Verbosity */
+"Disabled" = "Disabled";
+"Error" = "Error";
+"Warning" = "Warning";
+"Info" = "Info";
+"Important" = "Important";
+"Detailed" = "Detailed";
+"Very detailed" = "Very detailed";

@@ -1,0 +1,46 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2009 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+"Phone" = "Telefon";
+
+/* Media Options */
+"Media Options" = "Zvučne postavke";
+"Echo Canceller" = "Poništavač jeke";
+"Silence Detector" = "Detektor tišine";
+"Codec" = "Kodek";
+"Send DTMF with INFO" = "Send DTMF with INFO";
+
+/* Dialing Options */
+"Dialing Options" = "Postavke poziva";
+"Remove Intl Prefix" = "Remove Intl Prefix";
+"Intl Prefix Substitution" = "Zamjena int. prefiksa";
+"You can define the substitution prefix for international prefix '+', if your SIP provider doesn't manage it." = "Možete definirati zamjenu za prefiks '+', ukoliko ga vaš SIP provider ne koristi.";
+"Keypad play sound" = "Keypad sound";
+"Cellular button" = "Cellular button";
+
+/* Enable/Disable log file */
+"Debugging log file" = "Uključi logiranje";
+/* Logging Verbosity */
+"Disabled" = "Onemogućeno";
+"Error" = "Pogreška";
+"Warning" = "Upozorenje";
+"Info" = "Info";
+"Important" = "Važno";
+"Detailed" = "Detaljno";
+"Very detailed" = "Veoma detaljno";

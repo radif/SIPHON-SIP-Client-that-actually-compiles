@@ -1,0 +1,50 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2009 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/**
+ * Korean localization by Youngjin Park <parkyj@gmail.com>
+ */
+
+"Phone" = "전화";
+
+/* Media Options */
+"Media Options" = "미디어 옵션";
+"Echo Canceller" = "에코 제거";
+"Silence Detector" = "묵음 감지";
+"Codec" = "코덱";
+"Send DTMF with INFO" = "INFO를 통한 DTMF전송";
+
+/* Dialing Options */
+"Dialing Options" = "다이얼링 옵션";
+"Remove Intl Prefix" = "Remove Intl Prefix";
+"Intl Prefix Substitution" = "자동 지역번호 삽입";
+"Keypad play sound" = "Keypad sound";
+"Cellular button" = "Cellular button";
+
+/* Enable/Disable log file */
+"Debugging log file" = "로그 파일 디버깅";
+/* Logging Verbosity */
+"Disabled" = "비활성화";
+"Error" = "에러";
+"Warning" = "경고";
+"Info" = "정보";
+"Important" = "중요";
+"Detailed" = "자세히";
+"Very detailed" = "매우 자세히";
+

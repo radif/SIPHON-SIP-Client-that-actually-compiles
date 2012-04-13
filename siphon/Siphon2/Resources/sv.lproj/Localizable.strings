@@ -1,0 +1,106 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2010 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/* Siphon */
+"Numpad" = "Knappsats";
+"Favorites" = "Favoriter";
+"Recents" = "Senaste";
+"Voicemail" = "Röstbrevlåda";
+
+/* PhoneView */
+"Create New Contact" = "Skapa Ny Kontakt";
+"Add to Existing Contact" = "Lägg till i Befintlig Kontakt";
+"The Wi-Fi network is unavailable!" = "Wi-Fi nätverket är inte tillgängligt!";
+"The SIP server is unreachable!" = "SIP-servern är inte åtkomlig!";
+"You must enable Wi-Fi or SIP account to place a call." = "Du måste göra Wi-Fi eller SIP-konto tillgängligt för att kunna ringa.";
+"Cellular call" = "Mobilsamtal";
+
+"Connected" = "Ansluten"; /* 200 */
+
+"Bad Request" = "Ogiltig Begäran"; /* 400 */
+"Unauthorized" = "Obehörig"; /* 401 */
+"Payment Required" = "Betalning Nödvändig"; /* 402 */
+"Forbidden" = "Förbjuden"; /* 403 */
+"Not Found" = "Inte Funnen"; /* 404 */
+"Method Not Allowed" = "Otillåten Metod"; /* 405 */
+"Not Acceptable" = "Inte Godtagbar"; /* 406 */
+"Proxy Authentication Required" = "Proxy Verifiering Nödvändig"; /* 407 */
+"Request Timeout" = "Begäran Gjorde Time-out"; /* 408 */
+
+"Service Unavailable" = "Otillgänglig Tjänst"; /* 503 */
+
+"No Microphone Available" = "Ingen Mikrofon Tillgänglig";
+"Connect a microphone to phone" = "Anslut en mikrofon till telefonen";
+
+/* OK */
+"OK" = "OK";
+"Cancel" = "Avbryt";
+
+/* Intro page greeting */
+"Press the Home button" = "Tryck på Hemknappen";
+
+/* Intro page greeting */
+"Siphon requires a valid\nSIP account.\n\nTo enter this information, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "Siphon behöver ett giltigt\nSIP-konto.\n\nMata in den informationen genom att, välja \"Inställningar\" från din Hemskärm. Välj sedan \"Siphon\" post.";
+
+/* Call View */
+"Answer" = "Svara";
+"Decline" = "Avvisa";
+"End call" = "Avsluta samtal";
+"Small end call" = "Lägg på";
+"Hold Call + Answer" = "Parkera Samtal + Svara";
+"End Call + Answer" = "Avsluta Samtal + Svara";
+"Ignore" = "Ignorera";
+
+"calling..." = "ringer upp...";
+"call ended" = "samtal är avslutat";
+
+"Hide Keypad" = "Dölj Knappsats";
+"mute" = "sekretess";
+"keypad" = "knappsats";
+"speaker" = "högtalare";
+"add call" = "lägg till samtal";
+"hold" = "vänta";
+"contacts" = "kontakter";
+
+/* Recent calls */
+"Recent Calls" = "Senaste Samtal";
+"Missed Call" = "Missade Samtal";
+"Clear" = "Radera";
+"All" = "Alla";
+"Missed" = "Missade";
+"Clear All Recents" = "Radera Alla Senaste";
+"Unknown Caller" = "Uppringande Part Okänd";
+"Unknown" = "Okänd";
+"Incoming Call" = "Inkomande Samtal";
+"Outgoing Call" = "Utgående Samtal";
+
+"Settings" = "Inställningar";
+
+/* Voicemail */
+"Voicemail Number?" = "Nummer Till Röstbrevlåda?";
+
+/* SIP */
+"\nTo correct this parameter, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "\nFör att kunna ändra den här inställningen, välj \"Inställningar\" från din hemskärm. Välj sedan \"Siphon\" post.";
+"Invalid value for Local Port (expecting 1-65535)." = "Ogiltigt värde för Lokal Port (förväntat 1-65535).";
+"Invalid value for RTP port (expecting 1-65535)." = "Ogiltigt värde för RTP-port (förväntat 1-65535).";
+"Invalid value for username or server." = "Ogiltigt användarnamn eller server.";
+"Invalid value for server parameter." = "Ogiltig serverparameter.";
+"Invalid value for timeout (expecting 1-3600)." = "Ogiltigt värde för time-out (förväntat 1-3600).";
+"Invalid value for proxy parameter." = "Ogiltig proxyparameter.";
+"Error adding new account." = "Fel vid skapande av nytt konto.";

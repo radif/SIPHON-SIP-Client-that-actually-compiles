@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>1800</string>
+			<key>isNumeric</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.google.code.siphon</string>
+			<key>key</key>
+			<string>sip_regtimeout</string>
+			<key>label</key>
+			<string>Reg-Timeout</string>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>5060</string>
+			<key>isNumeric</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.google.code.siphon</string>
+			<key>key</key>
+			<string>sip_localport</string>
+			<key>label</key>
+			<string>Local Port</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string>4000</string>
+			<key>isNumeric</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.google.code.siphon</string>
+			<key>key</key>
+			<string>sip_rtpport</string>
+			<key>label</key>
+			<string>RTP Port</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.google.code.siphon</string>
+			<key>key</key>
+			<string>sip_nat</string>
+			<key>label</key>
+			<string>Enable Nat</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.google.code.siphon</string>
+			<key>isURL</key>
+			<true/>
+			<key>key</key>
+			<string>sip_stunDomain</string>
+			<key>label</key>
+			<string>STUN Domain</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.google.code.siphon</string>
+			<key>isURL</key>
+			<true/>
+			<key>key</key>
+			<string>sip_stunServer</string>
+			<key>label</key>
+			<string>STUN Server</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Advanced settings</string>
+</dict>
+</plist>

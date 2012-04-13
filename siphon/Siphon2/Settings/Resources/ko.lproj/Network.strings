@@ -1,0 +1,38 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2009 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/**
+ * Korean localization by Youngjin Park <parkyj@gmail.com>
+ */
+
+"Network" = "네트워크";
+
+/* Transport Options */
+"Transport Options" = "전송옵션";
+
+"Local Port" = "로컬 포트";
+"STUN Domain" = "STUN 도메인";
+"STUN Server" = "STUN 서버";
+"DNS" = "DNS";
+"Keep Alive Interval" = "Keep Alive 간격";
+
+/* Media Transport Options */
+"Media Transport Options" = "미디어 전송 옵션";
+"RTP Port" = "RTP 포트";
+"Enable ICE" = "ICE 사용";

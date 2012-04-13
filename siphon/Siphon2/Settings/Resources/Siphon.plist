@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>label</key>
+			<string>Account</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.googlecode.siphon</string>
+			<key>key</key>
+			<string>username</string>
+			<key>label</key>
+			<string>Username</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.googlecode.siphon</string>
+			<key>key</key>
+			<string>password</string>
+			<key>label</key>
+			<string>Password</string>
+			<key>cell</key>
+			<string>PSSecureEditTextCell</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.googlecode.siphon</string>
+			<key>key</key>
+			<string>server</string>
+			<key>isURL</key>
+			<true/>
+			<key>label</key>
+			<string>Server</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+		</dict>
+		<dict>
+			<key>defaults</key>
+			<string>com.googlecode.siphon</string>
+			<key>key</key>
+			<string>voicemail</string>
+			<key>label</key>
+			<string>Voicemail Number</string>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+		</dict>
+		<dict>
+			<key>detail</key>
+			<string>AdvancedSettings</string>
+			<key>label</key>
+			<string>Advanced settings</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>detail</key>
+			<string>PhoneSettings</string>
+			<key>label</key>
+			<string>Phone settings</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+		</dict>
+		<dict>
+			<key>detail</key>
+			<string>NetworkSettings</string>
+			<key>label</key>
+			<string>Network settings</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>donate:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>confirmation</key>
+			<dict>
+				<key>cancelTitle</key>
+				<string>Not Now</string>
+				<key>okTitle</key>
+				<string>Yes</string>
+				<key>title</key>
+				<string>Exit Settings and donate via PayPal through Safari?</string>
+			</dict>
+			<key>icon</key>
+			<string>icon-paypal.png</string>
+			<key>label</key>
+			<string>Donate</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleViewCell</string>
+			<key>label</key>
+			<string>Version 2.3</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSTitleViewCell</string>
+			<key>label</key>
+			<string>Siphon (c) 2007 - 2010, Samuel. samuelv0304@gmail.com</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Siphon</string>
+</dict>
+</plist>

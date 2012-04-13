@@ -1,0 +1,108 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2010 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/* Siphon */
+"Numpad" = "Tipkovnica";
+"Favorites" = "Favoriti";
+"Recents" = "Novije";
+"Voicemail" = "Voicemail";
+
+/* PhoneView */
+"Create New Contact" = "Kreiraj novi kontakt";
+"Add to Existing Contact" = "Dodaj postojećem kontaktu";
+/*"The Wi-Fi network is unavailable!" = "The Wi-Fi network is unavailable!\nor\nthe SIP server is unreachable!";*/
+"The Wi-Fi network is unavailable!" = "Wi-Fi mreža nije dostupna!";
+"The SIP server is unreachable!" = "SIP poslužitelj nije dostupan!";
+"You must enable Wi-Fi or SIP account to place a call." = "Morate omogućiti Wi-Fi ili SIP račun za poziv.";
+"Cellular call" = "Navaden klic";
+
+"Connected" = "Povezan"; /* 200 */
+
+"Bad Request" = "Neispravan upit"; /* 400 */
+"Unauthorized" = "Neovlašten"; /* 401 */
+"Payment Required" = "Potrebno plaćanje"; /* 402 */
+"Forbidden" = "Zabranjeno"; /* 403 */
+"Not Found" = "Nije pronađeno"; /* 404 */
+"Method Not Allowed" = "Postupak nije dozvoljen"; /* 405 */
+"Not Acceptable" = "Nije dopušteno"; /* 406 */
+"Proxy Authentication Required" = "Potrebna proxy provjera"; /* 407 */
+"Request Timeout" = "Zahtjev istekao"; /* 408 */
+
+"Service Unavailable" = "Usluga nije dostupna"; /* 503 */
+
+"No Microphone Available" = "Mikrofon nije dostupan";
+"Connect a microphone to phone" = "Connect a microphone to phone";
+//Spojite mikrofon za snimanje glasovnih poruka.
+
+/* OK */
+"OK" = "U redu";
+"Cancel" = "Odustani";
+
+/* Intro page greeting */
+"Press the Home button" = "Pritisnite Home tipku";
+
+/* Intro page greeting */
+"Siphon requires a valid\nSIP account.\n\nTo enter this information, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "Siphon treba ispravan\nSIP račun.\n\nZa uređivanje postavki idite na \"Postavke\" i nakon toga pritisnite \"Siphon\".";
+
+/* Call View */
+"Answer" = "Odgovori";
+"Decline" = "Odbaci";
+"End call" = "Prekini";
+"Small end call" = "Prekini";
+"Hold Call + Answer" = "Zadrži poziv + Odgovori";
+"End Call + Answer" = "Prekini + Odgovori";
+"Ignore" = "Ignoriraj";
+
+"calling..." = "zovem...";
+"call ended" = "poziv završen";
+
+"Hide Keypad" = "Sakrij tipke";
+"mute" = "isključi ton";
+"keypad" = "tipke";
+"speaker" = "zvučnik";
+"add call" = "dodaj poziv";
+"hold" = "zadrži";
+"contacts" = "kontakti";
+
+/* Recent calls */
+"Recent Calls" = "Povijest poziva";
+"Missed Call" = "Propušteni poziv";
+"Clear" = "Izbriši";
+"All" = "Sve";
+"Missed" = "Propušteno";
+"Clear All Recents" = "Izbriši sve";
+"Unknown Caller" = "Nepoznati broj";
+"Unknown" = "Nepoznato";
+"Incoming Call" = "Dolazni poziv";
+"Outgoing Call" = "Odlazni poziv";
+
+"Settings" = "Postavke";
+
+/* Voicemail */
+"Voicemail Number?" = "Voicemail Number?";
+
+/* SIP */
+"\nTo correct this parameter, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "\nZa uređivanje postavki idite na \"Postavke\" i nakon toga pritisnite \"Siphon\".";
+"Invalid value for Local Port (expecting 1-65535)." = "Pogrešno upisana vrijednost za lokalni port (1-65535).";
+"Invalid value for RTP port (expecting 1-65535)." = "Pogrešno upisana vrijednost za RTP port (1-65535).";
+"Invalid value for username or server." = "Pogrešno upisana vrijednost za korisničko ime ili poslužitelj.";
+"Invalid value for server parameter." = "Pogrešno upisana vrijednost za poslužitelj.";
+"Invalid value for timeout (expecting 1-3600)." = "Pogrešno upisana vrijednost za vremensko ograničenje (1-3600).";
+"Invalid value for proxy parameter." = "Pogrešno upisana vrijednost za proxy.";
+"Error adding new account." = "Pogreška pri dodavanju novoga računa.";

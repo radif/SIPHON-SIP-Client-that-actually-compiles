@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Siphon</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Accounts</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSDynamicPaneSpecifier</string>
+			<key>InAppContentsDataSource</key>
+			<string>accountsDescriptionDataSource</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Add Account...</string>
+			<key>File</key>
+			<string>NewAccount</string>
+			<key>InAppAction</key>
+			<string>addAccountWithSettingSpecifier:fromViewController:</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+			<key>Key</key>
+			<string>DefaultAccount</string>
+			<key>Title</key>
+			<string>Default Account</string>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>InAppValuesDataSource</key>
+			<string>valuesDataSource</string>
+			<key>InAppTitlesDataSource</key>
+			<string>titlesDataSource</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Advanced settings</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Media</string>
+			<key>File</key>
+			<string>MediaAdvanced</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Network</string>
+			<key>File</key>
+			<string>NetworkAdvanced</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Phone</string>
+			<key>File</key>
+			<string>PhoneAdvanced</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Version</string>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Key</key>
+			<string>version</string>
+			<key>DefaultValue</key>
+			<string>3.9.7</string>
+		</dict>
+	</array>
+</dict>
+</plist>

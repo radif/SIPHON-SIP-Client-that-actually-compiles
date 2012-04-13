@@ -1,0 +1,39 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2009 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+"Network" = "網絡";
+
+"Siphon over EDGE/3G" = "Siphon用在EDGE/3G上";
+"You must read your mobile subscription agreement before activate this option. The author is not responsible of your \"Siphon\" usage." = "在你啟動此功能之前，你必須閱讀你的流動電話預訂協議。作者是不會負責閣下\”Siphon\” 的用途。";
+
+/* Transport Options */
+"Transport Options" = "傳輸選項";
+
+"Local Port" = "本地端口";
+"STUN Domain" = "STUN綱域";
+"STUN Server" = "STUN伺服器";
+"DNS" = "DNS";
+"Keep Alive Interval" = "保持連接時距時制";
+
+/* Media Transport Options */
+"Media Transport Options" = "媒體傳輸選項";
+
+"RTP Port" = "RTP端口";
+"Enable ICE" = "啟動ICE";
+

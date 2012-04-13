@@ -1,0 +1,40 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2009 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/**
+  * Korean Localization by Youngjin Park <parkyj@gmail.com>
+  */
+
+"Account" = "계정";
+
+/* SIP parameters */
+"Username" = "사용자이름";
+"Server" = "서버";
+"Password" = "암호";
+"Voicemail Number" = "Voicemail Number";
+"Advanced settings" = "고급 설정";
+
+"Phone settings" = "전화 설정";
+"Network settings" = "네트워크 설정";
+
+/* Donate */
+"Donate" = "Donate";
+"Yes" = "Yes";
+"Not Now" = "Later";
+"Exit Settings and donate via PayPal through Safari?" = "Exit Settings and donate via PayPal?";

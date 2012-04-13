@@ -1,0 +1,46 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2009 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+"Phone" = "Téléphonie";
+
+/* Media Options */
+"Media Options" = "Options audio";
+"Echo Canceller" = "Annulateur d'écho";
+"Silence Detector" = "Détecteur de silence";
+"Codec" = "Codec";
+"Send DTMF with INFO" = "DTMF par msg INFO";
+
+/* Dialing Options */
+"Dialing Options" = "Options de numérotation";
+"Remove Intl Prefix" = "Supprimer le préfixe Intl";
+"Intl Prefix Substitution" = "Substitution du préfixe Intl";
+"You can define the substitution prefix for international prefix '+', if your SIP provider doesn't manage it." = "Vous pouvez définir le préfixe de subsitution du préfix international '+', si votre fournisseur SIP ne le gère pas.";
+"Keypad play sound" = "Son du clavier";
+"Cellular button" = "Bouton GSM";
+
+/* Enable/Disable log file */
+"Debugging log file" = "Fichier Journal";
+/* Logging Verbosity */
+"Disabled" = "Désactivé";
+"Error" = "Erreur";
+"Warning" = "Warning";
+"Info" = "Info";
+"Important" = "Important";
+"Detailed" = "Détaillé";
+"Very detailed" = "Très détaillé";

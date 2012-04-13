@@ -1,0 +1,107 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2010 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+/* Siphon */
+"Numpad" = "Num. blok";
+"Favorites" = "Favoritter";
+"Recents" = "Seneste";
+"Voicemail" = "Besked";
+
+/* PhoneView */
+"Create New Contact" = "Opret ny kontakt";
+"Add to Existing Contact" = "Føj til eksisterende kontakt";
+"The Wi-Fi network is unavailable!" = "WiFi-netværk er ikke tilgængeligt!";
+"The SIP server is unreachable!" = "SIP-serveren er ikke tilgængelig!";
+"You must enable Wi-Fi or SIP account to place a call." = "Du skal aktivere Wi-Fi eller SIP-konto for at placere et opkald.";
+"Cellular call" = "Mobiltelefon opkald";
+
+"Connected" = "Tilknyttet"; /* 200 */
+
+"Bad Request" = "Forkert undersøgelse"; /* 400 */
+"Unauthorized" = "Uautoriserede"; /* 401 */
+"Payment Required" = "Betaling påkrævet"; /* 402 */
+"Forbidden" = "Forbudt"; /* 403 */
+"Not Found" = "Ikke fundet"; /* 404 */
+"Method Not Allowed" = "Metoden ikke tilladt"; /* 405 */
+"Not Acceptable" = "Ikke accepteres"; /* 406 */
+"Proxy Authentication Required" = "Proxy Authentication Required"; /* 407 */
+"Request Timeout" = "Bed Timeout"; /* 408 */
+
+"Service Unavailable" = "Tjenesten er ikke tilgængelig"; /* 503 */
+
+"No Microphone Available" = "Ingen tilgængelig mikrofon";
+"Connect a microphone to phone" = "Connect a microphone to phone";
+//Tilslut en mikrofon for at optage memoer.
+
+/* OK */
+"OK" = "OK";
+"Cancel" = "Annuller";
+
+/* Intro page greeting */
+"Press the Home button" = "Tryk på Home-knappen";
+
+/* Intro page greeting */
+"Siphon requires a valid\nSIP account.\n\nTo enter this information, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "Siphon kræver en gyldig\nSIP konto.\n\nfor angive disse oplysninger, vælg \"Indstillinger\" fra din Home skærm, og derefter trykke på den \"Siphon\" entry.";
+
+/* Call View */
+"Answer" = "Svar";
+"Decline" = "Tilbagegang";
+"End call" = "Slut opkald";
+"Small end call" = "Læg på";
+"Hold Call + Answer" = "Udsæt opkald + Svar";
+"End Call + Answer" = "Slut opkald + Svar";
+"Ignore" = "Ignorer";
+
+"calling..." = "ringer...";
+"call ended" = "opkald afsluttedes";
+
+"Hide Keypad" = "Skjul taster";
+"mute" = "lydløs";
+"keypad" = "num. blok";
+"speaker" = "højttaler";
+"add call" = "tilføj person";
+"hold" = "udsæt";
+"contacts" = "kontakter";
+
+/* Recent calls */
+"Recent Calls" = "Seneste opkald";
+"Missed Call" = "Ubesvarede opkald";
+"Clear" = "Slet";
+"All" = "Alle";
+"Missed" = "Ubesvaret";
+"Clear All Recents" = "Slet alle seneste";
+"Unknown Caller" = "Ukendt person";
+"Unknown" = "Ukendt";
+"Incoming Call" = "Indgående opkald";
+"Outgoing Call" = "Udgående opkald";
+
+"Settings" = "Indstillinger";
+
+/* Voicemail */
+"Voicemail Number?" = "Voicemail Number?";
+
+/* SIP */
+"\nTo correct this parameter, select \"Settings\" from your Home screen, and then tap the \"Siphon\" entry." = "\nAt rette op på denne parameter, vælg \"Indstillinger\" fra din Home skærm, og derefter trykke på den \"Siphon\" entry.";
+"Invalid value for Local Port (expecting 1-65535)." = "Ugyldig værdi for Local Port (expecting 1-65535).";
+"Invalid value for RTP port (expecting 1-65535)." = "Ugyldig værdi for RTP port (expecting 1-65535).";
+"Invalid value for username or server." = "Ugyldig værdi for username or server.";
+"Invalid value for server parameter." = "Ugyldig værdi for server parameter.";
+"Invalid value for timeout (expecting 1-3600)." = "Ugyldig værdi for timeout (expecting 1-3600).";
+"Invalid value for proxy parameter." = "Ugyldig værdi for proxy parameter.";
+"Error adding new account." = "Fejl ved tilføjelse af ny konto.";

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Account</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.google.code.siphon</string>
+			<key>key</key>
+			<string>sip_user</string>
+			<key>label</key>
+			<string>Username</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSecureEditTextCell</string>
+			<key>defaults</key>
+			<string>com.google.code.siphon</string>
+			<key>key</key>
+			<string>sip_password</string>
+			<key>label</key>
+			<string>Password</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.google.code.siphon</string>
+			<key>isURL</key>
+			<true/>
+			<key>key</key>
+			<string>sip_server</string>
+			<key>label</key>
+			<string>Server</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>detail</key>
+			<string>AdvancedSettings</string>
+			<key>label</key>
+			<string>Advanced settings</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+      <key>cell</key>
+      <string>PSSwitchCell</string>
+      <key>default</key>
+      <true/>
+      <key>defaults</key>
+      <string>com.google.code.siphon</string>
+      <key>key</key>
+      <string>daemonMode</string>
+      <key>label</key>
+      <string>Daemon mode</string>
+    </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.google.code.siphon</string>
+			<key>key</key>
+			<string>siphonOverEDGE</string>
+			<key>label</key>
+			<string>Siphon over EDGE</string>
+			<key>requiredCapabilities</key>
+			<array>
+				<string>telephony</string>
+			</array>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.google.code.siphon</string>
+			<key>detail</key>
+			<string>LocalizedItemsController</string>
+			<key>key</key>
+			<string>sip_loggingEnabled</string>
+			<key>label</key>
+			<string>Debugging log file</string>
+			<key>validTitles</key>
+			<array>
+				<string>Disabled</string>
+				<string>Error</string>
+				<string>Warning</string>
+				<string>Info</string>
+				<string>Important</string>
+				<string>Detailed</string>
+				<string>Very detailed</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+				<integer>5</integer>
+				<integer>6</integer>
+			</array>
+		</dict>
+		
+	</array>
+	<key>title</key>
+	<string>Siphon</string>
+</dict>
+</plist>

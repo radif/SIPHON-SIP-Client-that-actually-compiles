@@ -1,0 +1,37 @@
+/**
+ *  Siphon SIP-VoIP for iPhone and iPod Touch
+ *  Copyright (C) 2008-2009 Samuel <samuelv0304@gmail.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License along
+ *  with this program; if not, write to the Free Software Foundation, Inc.,
+ *  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ */
+
+"Network" = "Network";
+
+/* Transport Options */
+"Transport Options" = "Opciones de transporte";
+
+"Local Port" = "Puerto Local";
+"STUN Domain" = "Dominio STUN";
+"STUN Server" = "Servidor STUN";
+"DNS" = "DNS";
+"Keep Alive Interval" = "Keep Alive Interval";
+
+/* Media Transport Options */
+"Media Transport Options" = "Media Transport Options";
+"RTP Port" = "Puerto RTP";
+"Enable ICE" = "Enable ICE";
+
+"Siphon over EDGE/3G" = "Siphon sobre EDGE/3G";
+"You must read your mobile subscription agreement before activate this option. The author is not responsible of your \"Siphon\" usage." = "Usted debe leer su contrato de móvil antes de activar esta opción. El autor no es responsable de su uso de \"Siphon\".";
