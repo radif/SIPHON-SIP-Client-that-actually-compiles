@@ -1,0 +1,14 @@
+output/libmilenage-i686-apple-darwin9/milenage.o: ../../milenage/milenage.c ../../milenage/milenage.h \
+  ../../milenage/rijndael.h
+output/libmilenage-i686-apple-darwin9/rijndael.o: ../../milenage/rijndael.c ../../../pjlib/include/pj/types.h \
+  ../../../pjlib/include/pj/config.h \
+  ../../../pjlib/include/pj/compat/cc_gcc.h \
+  ../../../pjlib/include/pj/compat/os_auto.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/include/TargetConditionals.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/include/Availability.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/usr/include/AvailabilityInternal.h \
+  ../../../pjlib/include/pj/compat/m_auto.h \
+  ../../../pjlib/include/pj/compat/size_t.h \
+  /Applications/Xcode.app/Contents/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h \
+  ../../../pjlib/include/pj/config_site.h \
+  ../../../pjlib/include/pj/config_site_sample.h
